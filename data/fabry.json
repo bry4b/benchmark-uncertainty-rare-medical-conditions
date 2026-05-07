@@ -1,0 +1,311 @@
+{
+  "query": {
+    "disease": "fabry",
+    "desired_report_count": 10,
+    "retrieved_report_count": 1,
+    "open_access_only": true,
+    "ollama_model": "llama3.1:8b"
+  },
+  "records": [
+    {
+      "pmcid": "PMC12817667",
+      "year": "2025",
+      "abstract": "Background Fabry disease, an X-linked lysosomal storage disorder, is associated with significant multisystem involvement, including small fiber neuropathy. While neuropathic pain is well-documented in females with Fabry disease, the objective confirmation of small fiber dysfunction in pediatric heterozygotes remains underreported. This study highlights the role of quantitative sensory testing (QST) in diagnosing small fiber neuropathy in young female patients. Case report We present twin sisters, heterozygous for a pathogenic GLA variant (c.298 A > T), who exhibited symptoms of small fiber neuropathy, including acroparesthesia and gastrointestinal dysfunction. QST revealed altered thermoalgesic and vibratory thresholds in one twin and isolated vibratory hyposensitivity in the other, supporting the diagnosis of small fiber neuropathy. Discussion These cases highlight the diagnostic challenge of Fabry disease, as neuropathic symptoms may be overlooked or attributed to other conditions in pediatric patients. The findings emphasize the need for early identification of small fiber dysfunction in heterozygous females, who are increasingly recognized as being clinically affected. The complex alterations in sensory processing reinforce the importance of integrating QST as an objective assessment tool for small fiber function in Fabry disease. Conclusions Small fiber neuropathy is an early and clinically relevant manifestation of Fabry disease in pediatric heterozygotes. Early recognition and intervention, including enzyme replacement therapy (ERT), are essential to mitigating disease progression and improving clinical outcomes. These cases underscore the utility of QST in confirming small fiber neuropathy and highlight its potential role in the early diagnosis and monitoring of Fabry-related neuropathy in pediatric patients.",
+      "extraction": {
+        "patients": [
+          {
+            "patient_id": "case_1",
+            "age": "4 years old",
+            "sex": "",
+            "confirmed_diagnosis": "Fabry disease",
+            "final_diagnosis_evidence": "Both patients were confirmed to have a pathogenic GLA variant (c.298 A > T), which results in a premature stop codon and leads to a truncated α-galactosidase A enzyme.",
+            "symptoms_presented": [
+              {
+                "raw_symptom": "acroparesthesia",
+                "normalized_symptom_candidates": "",
+                "hpo_id": "",
+                "status": "present",
+                "temporality": "",
+                "severity": "severe",
+                "evidence_sentence": "The first twin exhibited initial symptoms at the age of four, including acroparesthesia..."
+              },
+              {
+                "raw_symptom": "neuropathic pain in the feet",
+                "normalized_symptom_candidates": "",
+                "hpo_id": "",
+                "status": "present",
+                "temporality": "",
+                "severity": "severe",
+                "evidence_sentence": "The first twin exhibited initial symptoms at the age of four, including acroparesthesia, neuropathic pain in the feet..."
+              },
+              {
+                "raw_symptom": "abdominal discomfort",
+                "normalized_symptom_candidates": "",
+                "hpo_id": "",
+                "status": "present",
+                "temporality": "",
+                "severity": "",
+                "evidence_sentence": "The first twin exhibited initial symptoms at the age of four, including acroparesthesia, neuropathic pain in the feet, and abdominal discomfort."
+              },
+              {
+                "raw_symptom": "distal coldness",
+                "normalized_symptom_candidates": "",
+                "hpo_id": "",
+                "status": "present",
+                "temporality": "",
+                "severity": "",
+                "evidence_sentence": "Physical examination revealed distal coldness but no other significant abnormalities."
+              },
+              {
+                "raw_symptom": "hyposensitivity",
+                "normalized_symptom_candidates": "",
+                "hpo_id": "",
+                "status": "present",
+                "temporality": "",
+                "severity": "",
+                "evidence_sentence": "quantitative sensory testing (QST) using CASE IV ® software (4,2,1 algorithm with null stimuli) demonstrated a significant elevation in Vibratory Detection Thresholds (VDT) in both upper and lower extremities..."
+              },
+              {
+                "raw_symptom": "hyperalgesia",
+                "normalized_symptom_candidates": "",
+                "hpo_id": "",
+                "status": "present",
+                "temporality": "",
+                "severity": "",
+                "evidence_sentence": "alongside a leftward shift in the thermoalgesic curve, suggesting hyperalgesia."
+              },
+              {
+                "raw_symptom": "sinus tachycardia",
+                "normalized_symptom_candidates": "",
+                "hpo_id": "",
+                "status": "present",
+                "temporality": "",
+                "severity": "",
+                "evidence_sentence": "Further cardiac evaluation with 24-hour Holter monitoring indicated sinus tachycardia and reduced heart rate variability."
+              },
+              {
+                "raw_symptom": "reduced heart rate variability",
+                "normalized_symptom_candidates": "",
+                "hpo_id": "",
+                "status": "present",
+                "temporality": "",
+                "severity": "",
+                "evidence_sentence": "Further cardiac evaluation with 24-hour Holter monitoring indicated sinus tachycardia and reduced heart rate variability."
+              },
+              {
+                "raw_symptom": "decreased heart rate variability",
+                "normalized_symptom_candidates": "",
+                "hpo_id": "",
+                "status": "present",
+                "temporality": "",
+                "severity": "",
+                "evidence_sentence": "Holter monitoring demonstrated decreased heart rate variability,"
+              },
+              {
+                "raw_symptom": "vibratory detection threshold (VDT) of 8 at dorsum of left foot",
+                "normalized_symptom_candidates": "",
+                "hpo_id": "",
+                "status": "present",
+                "temporality": "",
+                "severity": "",
+                "evidence_sentence": "Fig. 3 Vibratory Detection Threshold (VDT) performed at dorsum of left foot showing computed threshold 8,"
+              },
+              {
+                "raw_symptom": "neuropathic pain",
+                "normalized_symptom_candidates": "",
+                "hpo_id": "",
+                "status": "present",
+                "temporality": "",
+                "severity": "",
+                "evidence_sentence": "Following the initiation of enzyme replacement therapy (ERT) in combination with multimodal symptomatic pain management, both patients reported a subjective reduction in neuropathic and autonomic symptoms."
+              },
+              {
+                "raw_symptom": "autonomic symptoms",
+                "normalized_symptom_candidates": "",
+                "hpo_id": "",
+                "status": "present",
+                "temporality": "",
+                "severity": "",
+                "evidence_sentence": "Following the initiation of enzyme replacement therapy (ERT) in combination with multimodal symptomatic pain management, both patients reported a subjective reduction in neuropathic and autonomic symptoms."
+              }
+            ],
+            "negative_findings": [
+              {
+                "finding": "no fever",
+                "status": "absent",
+                "evidence_sentence": ""
+              },
+              {
+                "finding": "fever",
+                "status": "absent",
+                "evidence_sentence": ""
+              },
+              {
+                "finding": "abdominal imaging abnormalities",
+                "status": "absent",
+                "evidence_sentence": "Similar to her sister, Holter monitoring demonstrated decreased heart rate variability, though echocardiography, blood chemistry, and abdominal imaging were unremarkable."
+              }
+            ],
+            "diagnostic_tests": [
+              {
+                "test": "nerve conduction studies",
+                "result": "normal",
+                "evidence_sentence": "Despite normal nerve conduction studies and needle electromyography..."
+              },
+              {
+                "test": "needle electromyography",
+                "result": "normal",
+                "evidence_sentence": "Despite normal nerve conduction studies and needle electromyography..."
+              },
+              {
+                "test": "quantitative sensory testing (QST)",
+                "result": "",
+                "evidence_sentence": "quantitative sensory testing (QST) using CASE IV ® software (4,2,1 algorithm with null stimuli) demonstrated a significant elevation in Vibratory Detection Thresholds (VDT) in both upper and lower extremities..."
+              },
+              {
+                "test": "transthoracic echocardiography",
+                "result": "unremarkable",
+                "evidence_sentence": "However, additional assessments, including transthoracic echocardiography, pulmonary function studies, blood chemistries, and abdominal imaging, did not reveal any abnormalities."
+              },
+              {
+                "test": "pulmonary function studies",
+                "result": "unremarkable",
+                "evidence_sentence": "However, additional assessments, including transthoracic echocardiography, pulmonary function studies, blood chemistries, and abdominal imaging, did not reveal any abnormalities."
+              },
+              {
+                "test": "blood chemistries",
+                "result": "unremarkable",
+                "evidence_sentence": "However, additional assessments, including transthoracic echocardiography, pulmonary function studies, blood chemistries, and abdominal imaging, did not reveal any abnormalities."
+              },
+              {
+                "test": "abdominal imaging",
+                "result": "unremarkable",
+                "evidence_sentence": "However, additional assessments, including transthoracic echocardiography, pulmonary function studies, blood chemistries, and abdominal imaging, did not reveal any abnormalities."
+              },
+              {
+                "test": "Holter monitoring",
+                "result": "decreased heart rate variability",
+                "evidence_sentence": "Holter monitoring demonstrated decreased heart rate variability,"
+              },
+              {
+                "test": "echocardiography",
+                "result": "unremarkable",
+                "evidence_sentence": "Similar to her sister, Holter monitoring demonstrated decreased heart rate variability, though echocardiography, blood chemistry, and abdominal imaging were unremarkable."
+              },
+              {
+                "test": "blood chemistry",
+                "result": "unremarkable",
+                "evidence_sentence": "Similar to her sister, Holter monitoring demonstrated decreased heart rate variability, though echocardiography, blood chemistry, and abdominal imaging were unremarkable."
+              },
+              {
+                "test": "abdominal imaging",
+                "result": "unremarkable",
+                "evidence_sentence": "Similar to her sister, Holter monitoring demonstrated decreased heart rate variability, though echocardiography, blood chemistry, and abdominal imaging were unremarkable."
+              },
+              {
+                "test": "Vibratory Detection Threshold (VDT)",
+                "result": "8 at dorsum of left foot",
+                "evidence_sentence": "Fig. 3 Vibratory Detection Threshold (VDT) performed at dorsum of left foot showing computed threshold 8,"
+              }
+            ],
+            "initial_misdiagnoses_or_mimics": [
+              {
+                "diagnosis": "",
+                "evidence_sentence": ""
+              }
+            ]
+          },
+          {
+            "patient_id": "case_2",
+            "age": "5 years old",
+            "sex": "",
+            "confirmed_diagnosis": "Fabry disease",
+            "final_diagnosis_evidence": "Both patients were confirmed to have a pathogenic GLA variant (c.298 A > T), which results in a premature stop codon and leads to a truncated α-galactosidase A enzyme.",
+            "symptoms_presented": [
+              {
+                "raw_symptom": "abdominal pain localized in the hypogastrium",
+                "normalized_symptom_candidates": "",
+                "hpo_id": "",
+                "status": "present",
+                "temporality": "",
+                "severity": "moderate to severe",
+                "evidence_sentence": "The second twin developed symptoms at the age of five, initially presenting with abdominal pain localized in the hypogastrium..."
+              },
+              {
+                "raw_symptom": "acroparesthesia",
+                "normalized_symptom_candidates": "",
+                "hpo_id": "",
+                "status": "present",
+                "temporality": "",
+                "severity": "",
+                "evidence_sentence": "She experienced moderate to severe pain episodes 1–2 times per week, accompanied by diarrhea and acroparesthesia."
+              },
+              {
+                "raw_symptom": "hyposensitivity",
+                "normalized_symptom_candidates": "",
+                "hpo_id": "",
+                "status": "present",
+                "temporality": "",
+                "severity": "",
+                "evidence_sentence": "However, QST revealed significantly elevated VDT in both upper and lower extremities (Fig. 3 ), with calculated percentiles exceeding 97.5..."
+              },
+              {
+                "raw_symptom": "sinus tachycardia",
+                "normalized_symptom_candidates": "",
+                "hpo_id": "",
+                "status": "present",
+                "temporality": "",
+                "severity": "",
+                "evidence_sentence": "Similar to her sister, Holter monitoring demonstrated decreased heart rate variability..."
+              },
+              {
+                "raw_symptom": "reduced heart rate variability",
+                "normalized_symptom_candidates": "",
+                "hpo_id": "",
+                "status": "present",
+                "temporality": "",
+                "severity": "",
+                "evidence_sentence": "Similar to her sister, Holter monitoring demonstrated decreased heart rate variability..."
+              }
+            ],
+            "negative_findings": [],
+            "diagnostic_tests": [
+              {
+                "test": "nerve conduction studies",
+                "result": "normal",
+                "evidence_sentence": "Her physical examination was unremarkable, and nerve conduction studies along with needle electromyography yielded normal results."
+              },
+              {
+                "test": "needle electromyography",
+                "result": "normal",
+                "evidence_sentence": "Her physical examination was unremarkable, and nerve conduction studies along with needle electromyography yielded normal results."
+              },
+              {
+                "test": "quantitative sensory testing (QST)",
+                "result": "",
+                "evidence_sentence": "However, QST revealed significantly elevated VDT in both upper and lower extremities (Fig. 3 ), with calculated percentiles exceeding 97.5..."
+              },
+              {
+                "test": "transthoracic echocardiography",
+                "result": "unremarkable",
+                "evidence_sentence": "However, additional assessments, including transthoracic echocardiography, blood chemistry, and abdominal imaging were unremarkable."
+              },
+              {
+                "test": "blood chemistry",
+                "result": "unremarkable",
+                "evidence_sentence": "However, additional assessments, including transthoracic echocardiography, blood chemistry, and abdominal imaging were unremarkable."
+              },
+              {
+                "test": "abdominal imaging",
+                "result": "unremarkable",
+                "evidence_sentence": "However, additional assessments, including transthoracic echocardiography, blood chemistry, and abdominal imaging were unremarkable."
+              }
+            ],
+            "initial_misdiagnoses_or_mimics": []
+          }
+        ]
+      },
+      "review_status": "needs_human_review"
+    }
+  ]
+}

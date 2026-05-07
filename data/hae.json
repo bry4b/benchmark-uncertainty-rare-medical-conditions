@@ -1,0 +1,158 @@
+{
+  "query": {
+    "disease": "hereditary angioedema",
+    "desired_report_count": 10,
+    "retrieved_report_count": 1,
+    "open_access_only": true,
+    "ollama_model": "pubmed-extractor"
+  },
+  "records": [
+    {
+      "pmcid": "PMC12344933",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40307161/",
+      "year": "2025",
+      "abstract": "Data on hereditary angioedema with normal C1 inhibitor levels are currently limited. To date, only one Italian family with HAE-MYOF has been described, comprising exclusively female members. The angioedema (AE) of head and neck area with the teenage onset, triggered by menses and high fever episodes were identified. It is necessary to search for potential biomarkers in patients with HAE-MYOF. This case series reports two unrelated individuals from different families with symptoms onset of recurrent AE and identified myoferlin gene mutations. Due to limited knowledge about the clinical presentation, pathogenesis, and treatment response in HAE-MYOF, further data collection is essential.",
+      "extraction": {
+        "patients": [
+          {
+            "patient_id": "case_1",
+            "age": "36 years",
+            "sex": "male",
+            "confirmed_diagnosis": "Hereditary Angioedema with myoferlin gene mutation (HAE-MYOF)",
+            "final_diagnosis_evidence": "Whole-genome sequencing revealed a newly described heterozygous mutation in exon 33 of the MYOF gene, specifically c.2225C > T(p.Ser742Leu).",
+            "symptoms_presented": [
+              {
+                "raw_symptom": "Swelling (genital area, tongue, lips, and upper extremities)",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "The first patient was a 36-year-old male reported the onset of symptoms since the age of 22 with anamnesis of the genital area, tongue, lips, and upper extremities swellings (Fig. 1 A)."
+              },
+              {
+                "raw_symptom": "Hyperesthesia",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "The attacks were preceded by a series of prodromal symptoms, including hyperesthesia, tingling, marginal erythema."
+              },
+              {
+                "raw_symptom": "Marginal erythema",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "The attacks were preceded by a series of prodromal symptoms, including hyperesthesia, tingling, marginal erythema."
+              },
+              {
+                "raw_symptom": "Angioedema of the lips",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "Fig. 1 A Angioedema of the lips in patient 1"
+              },
+              {
+                "raw_symptom": "Angioedema of the lips",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "Fig. 1 B Angioedema of the lips in patient 2"
+              },
+              {
+                "raw_symptom": "Abdominal pain",
+                "status": "absent",
+                "temporality": "",
+                "evidence_sentence": ""
+              },
+              {
+                "raw_symptom": "Swelling of the face, extremities, and mucosa",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "complete symptom remission was achieved: the AAS28 score was 0 points; the AECT score– 16 points; the AeQoL score– 0 points."
+              }
+            ],
+            "negative_findings": [
+              {
+                "finding": "Normal C1-inhibitor (C1-INH) levels",
+                "status": "absent",
+                "evidence_sentence": "Quantitative and functional levels of C1-inhibitor (C1-INH), as well as C4 were within the normal range."
+              },
+              {
+                "finding": "Normal levels of C1-inhibitor (C1-INH) and C4",
+                "status": "absent",
+                "evidence_sentence": "Quantitative and functional levels of C1-inhibitor (C1-INH), as well as C4 were within the normal range."
+              },
+              {
+                "finding": "No clinical manifestations in brother",
+                "status": "absent",
+                "evidence_sentence": "Given the lack of knowledge regarding the clinical presentation, pathogenesis, and response to treatment in patients with HAE-MYOF, there is a clear need in data collection."
+              }
+            ],
+            "diagnostic_tests": [
+              {
+                "test": "Whole-genome sequencing",
+                "result": "Newly described heterozygous mutation in exon 33 of the MYOF gene, specifically c.2225C > T(p.Ser742Leu)",
+                "evidence_sentence": "Whole-genome sequencing revealed a newly described heterozygous mutation in exon 33 of the MYOF gene, specifically c.2225C > T(p.Ser742Leu)."
+              },
+              {
+                "test": "Whole-genome sequencing",
+                "result": "",
+                "evidence_sentence": "Whole-genome sequencing revealed a newly described heterozygous mutation in exon 33 of the MYOF gene, specifically c.2225C > T(p.Ser742Leu)."
+              },
+              {
+                "test": "Sanger sequencing",
+                "result": "unremarkable",
+                "evidence_sentence": "Subsequent examination of the patient’s mother, father, and two sisters for the same mutation using the Sanger sequencing were unremarkable."
+              }
+            ],
+            "initial_misdiagnoses_or_mimics": [
+              {
+                "diagnosis": "",
+                "evidence_sentence": ""
+              },
+              {
+                "diagnosis": "HAE due to C1-INH deficiency",
+                "evidence_sentence": ""
+              }
+            ]
+          },
+          {
+            "patient_id": "case_2",
+            "age": "young adult",
+            "sex": "female",
+            "confirmed_diagnosis": "Hereditary Angioedema",
+            "final_diagnosis_evidence": "Whole-exome sequencing revealed a heterozygous mutation in the MYOF gene, specifically, in exon 33 at position c.3508 C > T(p.His1170Tyr).",
+            "symptoms_presented": [
+              {
+                "raw_symptom": "Angioedema of the coccyx",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "AE appearance in the coccyx area during surgery for a coccygeal cyst."
+              },
+              {
+                "raw_symptom": "Angioedema involving eyelids, lips, larynx, pharynx, hands, and feet",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "Subsequently, the AE attacks occurred involving eyelids, lips, larynx, pharynx, hands, and feet (Fig. 1 B), but no preceding symptoms were observed."
+              }
+            ],
+            "negative_findings": [
+              {
+                "finding": "Normal levels of C1-inhibitor (C1-INH) and C4",
+                "status": "absent",
+                "evidence_sentence": "Quantitative levels of C1INH and C1INH function as well as C4 were within the normal range."
+              }
+            ],
+            "diagnostic_tests": [
+              {
+                "test": "Whole-exome sequencing",
+                "result": "",
+                "evidence_sentence": "Whole-exome sequencing revealed a heterozygous mutation in the MYOF gene, specifically, in exon 33 at position c.3508 C > T(p.His1170Tyr)."
+              }
+            ],
+            "initial_misdiagnoses_or_mimics": [
+              {
+                "diagnosis": "",
+                "evidence_sentence": ""
+              }
+            ]
+          }
+        ]
+      },
+      "review_status": "needs_human_review"
+    }
+  ]
+}

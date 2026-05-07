@@ -1,0 +1,323 @@
+{
+  "query": {
+    "disease": "acute intermittent porphyria",
+    "desired_report_count": 10,
+    "retrieved_report_count": 1,
+    "open_access_only": true,
+    "ollama_model": "pubmed-extractor"
+  },
+  "records": [
+    {
+      "pmcid": "PMC11823016",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39948482/",
+      "year": "2025",
+      "abstract": "Background Acute intermittent porphyria (AIP) is an inherited metabolic disorder that can affect the central, peripheral, and autonomic nervous systems. Therefore, its clinical presentation is diverse and may include abdominal pain, as well as neurological and psychiatric symptoms. Abdominal pain, though a common initial symptom, is often overlooked or misdiagnosed due to its lack of specificity. But early diagnosis and treatment are crucial, as untreated symptoms can progressively worsen. Case presentation This report describes a 26-year-old male who was admitted due to seizures and PRES changes on brain magnetic resonance imaging (MRI) for over 30 days, along with a 20-day history of sudden proximal weakness in both upper limbs. Additionally, he experienced recurrent vomiting and excessive sweating. Five months before admission, he was diagnosed with a urinary tract infection due to severe abdominal pain and tea-colored urine, and the symptoms resolved after treatment. Multiple examinations before and after admission consistently revealed hypertension, tachycardia, and hyponatremia. Electromyography (EMG) suggested axonal damage to the motor nerves of both upper limbs. During hospitalization, the patient's upper limb weakness progressively worsened, and around 12 days after admission, he began experiencing recurrent episodes of abdominal pain and limb pain. Then he was diagnosed with AIP based on the detection of positive PBG in urin and the identification of a c.445C > T (R149X) mutation in the hydroxymethylbilane synthase (HMBS) gene. Conclusions This case unveils that AIP is a disease that can be easily overlooked in its early stages. When a patient presents with central, peripheral, or autonomic nervous system symptoms and common causes are ruled out, AIP should be considered as a potential diagnosis. Additionally, unexplained symptoms such as abdominal pain, changes in urine color, hyponatremia should also raise suspicion. Timely screening through biochemical testing, including measurement of ALA, PBG and porphyrins in a random urine sample, is recommended. Timely administration of intravenous hemin and avoidance of precipitating factors can lead to a better prognosis. Supplementary Information The online version contains supplementary material available at 10.1186/s12883-025-04064-0.",
+      "extraction": {
+        "patients": [
+          {
+            "patient_id": "case_1",
+            "age": "26",
+            "sex": "male",
+            "confirmed_diagnosis": "acute intermittent porphyria",
+            "final_diagnosis_evidence": "positive PBG in a urine sample, which was tested using the qualitative Watson-Schwartz method at PUMC, along with genetic testing that identified a c.445C > T (R149X) mutation in the HMBS gene.",
+            "symptoms_presented": [
+              {
+                "raw_symptom": "Generalized body convulsions",
+                "status": "present",
+                "temporality": "sudden onset",
+                "evidence_sentence": "accompanied by generalized body convulsions, fixed gaze, and foaming at the mouth"
+              },
+              {
+                "raw_symptom": "Bilateral upper limb weakness",
+                "status": "present",
+                "temporality": "twenty-day history",
+                "evidence_sentence": "a twenty-day history of bilateral upper limb weakness"
+              },
+              {
+                "raw_symptom": "Generalized tonic–clonic seizures",
+                "status": "present",
+                "temporality": "one month ago",
+                "evidence_sentence": "along with recurrent vomiting and profuse sweating"
+              },
+              {
+                "raw_symptom": "Recurrent vomiting",
+                "status": "present",
+                "temporality": "one month ago",
+                "evidence_sentence": "along with recurrent vomiting and profuse sweating"
+              },
+              {
+                "raw_symptom": "Profuse sweating",
+                "status": "present",
+                "temporality": "one month ago",
+                "evidence_sentence": "along with recurrent vomiting and profuse sweating"
+              },
+              {
+                "raw_symptom": "Hypertension",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "The subsequent admission examination revealed hypertension, sinus tachycardia, and hyponatremia."
+              },
+              {
+                "raw_symptom": "Sinus tachycardia",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "The subsequent admission examination revealed hypertension, sinus tachycardia, and hyponatremia."
+              },
+              {
+                "raw_symptom": "Hyponatremia",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "The subsequent admission examination revealed hypertension, sinus tachycardia, and hyponatremia."
+              },
+              {
+                "raw_symptom": "limb pain",
+                "status": "present",
+                "temporality": "recurrent, approximately 10 days after admission",
+                "evidence_sentence": "Approximately 10 days after admission, the patient began experiencing recurrent limb pain"
+              },
+              {
+                "raw_symptom": "constipation",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "The patient presented with constipation, abdominal bloating, abdominal pain, and bowel obstruction in the subsequent days."
+              },
+              {
+                "raw_symptom": "abdominal pain",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "The patient presented with constipation, abdominal bloating, abdominal pain, and bowel obstruction in the subsequent days."
+              },
+              {
+                "raw_symptom": "bowel obstruction",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "The patient presented with constipation, abdominal bloating, abdominal pain, and bowel obstruction in the subsequent days."
+              },
+              {
+                "raw_symptom": "seizures",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "Overall, the patient presented with central nervous system (CNS) manifestations, including PRES and seizures"
+              },
+              {
+                "raw_symptom": "proximal upper limb weakness",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "bilateral proximal upper limb weakness accompanied by muscle atrophy, which progressed to include bilateral distal upper limbs and both lower limbs."
+              },
+              {
+                "raw_symptom": "distal upper limb weakness",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "bilateral distal upper limbs and both lower limbs."
+              },
+              {
+                "raw_symptom": "lower back weakness",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "his limb weakness worsened, and he developed lower back weakness,"
+              },
+              {
+                "raw_symptom": "difficulty swallowing",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "He also had difficulty swallowing and experienced coughing episodes while drinking."
+              },
+              {
+                "raw_symptom": "coughing episodes",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "and experienced coughing episodes while drinking."
+              },
+              {
+                "raw_symptom": "hallucinations",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "Additionally, the patient exhibited psychiatric symptoms, including hallucinations,"
+              },
+              {
+                "raw_symptom": "self-talk",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "including hallucinations, self-talk, and delusions."
+              },
+              {
+                "raw_symptom": "delusions",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "including hallucinations, self-talk, and delusions."
+              },
+              {
+                "raw_symptom": "limb weakness",
+                "status": "present",
+                "temporality": "progression over time",
+                "evidence_sentence": "After nearly 20 days of carbohydrate-loading therapy with intravenous glucose, his limb weakness worsened"
+              },
+              {
+                "raw_symptom": "generalized muscle pain",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "Three months after admission, the patient experienced generalized muscle pain, abdominal pain, mild nausea, and ted-colored urine."
+              },
+              {
+                "raw_symptom": "abdominal pain",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "Three months after admission, the patient experienced generalized muscle pain, abdominal pain, mild nausea, and tea-colored urine."
+              },
+              {
+                "raw_symptom": "mild nausea",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "Three months after admission, the patient experienced generalized muscle pain, abdominal pain, mild nausea, and tea-colored urine."
+              },
+              {
+                "raw_symptom": "tea-colored urine",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "Three months after admission, the patient experienced generalized muscle pain, abdominal pain, mild nausea, and tea-colored urine."
+              }
+            ],
+            "negative_findings": [
+              {
+                "finding": "Fever",
+                "status": "absent",
+                "evidence_sentence": "There was no family history of any medical illness"
+              },
+              {
+                "finding": "Abdominal pain",
+                "status": "resolved",
+                "evidence_sentence": "A urinary tract infection was considered, and after receiving corresponding treatment, the abdominal pain and vomiting resolved within two weeks."
+              },
+              {
+                "finding": "cerebrospinal fluid biochemical analysis",
+                "status": "absent",
+                "evidence_sentence": "and the patient's cerebrospinal fluid (CSF) biochemical analysis and routine tests were all normal."
+              },
+              {
+                "finding": "routine tests",
+                "status": "absent",
+                "evidence_sentence": "and the patient's cerebrospinal fluid (CSF) biochemical analysis and routine tests were all normal."
+              },
+              {
+                "finding": "no abnormal lesions in brain MRI",
+                "status": "absent",
+                "evidence_sentence": "The previously observed few single dot-like abnormal signals in the right parieto-occipital lobe had also disappeared"
+              },
+              {
+                "finding": "no elevated lactate levels after exercise",
+                "status": "absent",
+                "evidence_sentence": "However, no elevated lactate levels were detected after exercise,"
+              },
+              {
+                "finding": "fever",
+                "status": "absent",
+                "evidence_sentence": "no fever"
+              },
+              {
+                "finding": "vomiting",
+                "status": "improved",
+                "evidence_sentence": "However, there was some improvement in his recurrent vomiting"
+              },
+              {
+                "finding": "bowel obstruction",
+                "status": "improved",
+                "evidence_sentence": "However, there was some improvement in his recurrent vomiting, bowel obstruction"
+              },
+              {
+                "finding": "intermittent abdominal pain",
+                "status": "improved",
+                "evidence_sentence": "However, there was some improvement in his recurrent vomiting, bowel obstruction, and intermittent abdominal pain."
+              },
+              {
+                "finding": "straightening fingers",
+                "status": "absent",
+                "evidence_sentence": "Fig. 5 D showed that the patient was unable to straighten his fingers."
+              }
+            ],
+            "diagnostic_tests": [
+              {
+                "test": "Brain MRI",
+                "result": "",
+                "evidence_sentence": "Fig. 1 The brain MRI conducted on February 28, 2024, revealed asymmetrical, scattered patchy abnormal signals in the bilateral parieto-occipital cortical areas and cerebellar hemispheres."
+              },
+              {
+                "test": "Electromyography (EMG)",
+                "result": "",
+                "evidence_sentence": "The electromyography (EMG) conducted at an outside hospital suggested acute axonal damage to the motor fibers of the bilateral median, ulnar, radial, musculocutaneous, and axillary nerves."
+              },
+              {
+                "test": "Blood tests",
+                "result": "",
+                "evidence_sentence": "However, liver function tests were abnormal, with alanine aminotransferase levels at 145 U/L (normal range: 9–50 U/L) and aspartate aminotransferase levels at 81 U/L (normal range: 15–40 U/L)."
+              },
+              {
+                "test": "brain MRI",
+                "result": "",
+                "evidence_sentence": "A follow-up brain MRI conducted on March 15, 2024, indicated that most lesions had disappeared, leaving only a few dot-like abnormal signals in the right parieto-occipital lobe."
+              },
+              {
+                "test": "brain MRI",
+                "result": "",
+                "evidence_sentence": "A third brain MRI conducted on April 10, 2024, revealed no abnormal lesions."
+              },
+              {
+                "test": "muscle biopsy",
+                "result": "no ragged red fibers (RRFs)",
+                "evidence_sentence": "muscle biopsy findings showed no ragged red fibers (RRFs) but indicated neurogenic damage,"
+              },
+              {
+                "test": "muscle EMG",
+                "result": "",
+                "evidence_sentence": "A follow-up EMG again revealed a further progression of peripheral motor axonal neuropathy"
+              },
+              {
+                "test": "urine color",
+                "result": "normalized",
+                "evidence_sentence": "After 8 days of treatment, the urine color normalized"
+              },
+              {
+                "test": "hemoglobin level",
+                "result": "",
+                "evidence_sentence": ""
+              },
+              {
+                "test": "blood pressure",
+                "result": "normal",
+                "evidence_sentence": "By four months, the patient’s blood pressure and heart rate had returned to normal."
+              },
+              {
+                "test": "heart rate",
+                "result": "normal",
+                "evidence_sentence": "By four months, the patient’s blood pressure and heart rate had returned to normal."
+              }
+            ],
+            "initial_misdiagnoses_or_mimics": [
+              {
+                "diagnosis": "Urinary tract infection",
+                "evidence_sentence": "A urinary tract infection was considered, and after receiving corresponding treatment, the abdominal pain and vomiting resolved within two weeks."
+              },
+              {
+                "diagnosis": "Guillain-Barré syndrome",
+                "evidence_sentence": "His proximal upper limb weakness was assessed as motor axonal neuropathy, raising an initial high suspicion of Guillain-Barré syndrome (GBS)."
+              },
+              {
+                "diagnosis": "mitochondrial encephalomyopathy with lactic acidosis and stroke-like episodes (MELAS)",
+                "evidence_sentence": "mitochondrial encephalomyopathy with lactic acidosis and stroke-like episodes (MELAS) and AIP were considered as possible diagnoses."
+              },
+              {
+                "diagnosis": "acute intermittent porphyria with hepatic manifestations (AIP)",
+                "evidence_sentence": "However, no elevated lactate levels were detected after exercise, and muscle biopsy findings showed no ragged red fibers (RRFs) but indicated neurogenic damage, thereby ruling out MELAS and strongly supporting the diagnosis of AIP."
+              },
+              {
+                "diagnosis": "",
+                "evidence_sentence": ""
+              }
+            ]
+          }
+        ]
+      },
+      "review_status": "needs_human_review"
+    }
+  ]
+}
