@@ -1,0 +1,127 @@
+[
+  {
+    "case_id": "PMC12817667_case_1",
+    "source": {
+      "pmcid": "PMC12817667",
+      "pubmed_url": "",
+      "year": "2025",
+      "review_status": "needs_human_review"
+    },
+    "ground_truth_diagnosis": "Fabry disease",
+    "patient_profile": {
+      "age": "4 years old",
+      "sex": "female"
+    },
+    "presenting_complaint": "acroparesthesia, neuropathic pain in the feet, abdominal discomfort",
+    "symptoms_present": [
+      "acroparesthesia",
+      "neuropathic pain in the feet",
+      "abdominal discomfort",
+      "distal coldness",
+      "hyposensitivity",
+      "hyperalgesia",
+      "sinus tachycardia",
+      "reduced heart rate variability",
+      "decreased heart rate variability",
+      "vibratory detection threshold (VDT) of 8 at dorsum of left foot",
+      "neuropathic pain",
+      "autonomic symptoms"
+    ],
+    "symptoms_absent": [
+      "no fever",
+      "fever",
+      "abdominal imaging abnormalities"
+    ],
+    "candidate_mimics": [],
+    "final_diagnosis_evidence": "Both patients were confirmed to have a pathogenic GLA variant (c.298 A > T), which results in a premature stop codon and leads to a truncated α-galactosidase A enzyme.",
+    "red_flag_features": [
+      "reduced heart rate variability",
+      "decreased heart rate variability"
+    ],
+    "discriminating_features": [
+      "neuropathic pain in the feet",
+      "vibratory detection threshold (VDT) of 8 at dorsum of left foot",
+      "autonomic symptoms"
+    ],
+    "nonspecific_features": [
+      "acroparesthesia",
+      "abdominal discomfort",
+      "distal coldness",
+      "hyposensitivity",
+      "hyperalgesia",
+      "sinus tachycardia",
+      "nerve conduction studies result: normal",
+      "needle electromyography result: normal",
+      "quantitative sensory testing (QST) result: ",
+      "transthoracic echocardiography result: unremarkable",
+      "pulmonary function studies result: unremarkable",
+      "blood chemistries result: unremarkable",
+      "abdominal imaging result: unremarkable"
+    ],
+    "vignette": "A 4 years old-year-old patient presents with acroparesthesia, neuropathic pain in the feet, abdominal discomfort, distal coldness, hyposensitivity, hyperalgesia, sinus tachycardia, reduced heart rate variability.",
+    "ollama_review_notes": ""
+  },
+  {
+    "case_id": "PMC12817667_case_2",
+    "source": {
+      "pmcid": "PMC12817667",
+      "pubmed_url": "",
+      "year": "2025",
+      "review_status": "needs_human_review"
+    },
+    "ground_truth_diagnosis": "Fabry disease",
+    "patient_profile": {
+      "age": "5 years old",
+      "sex": "female"
+    },
+    "presenting_complaint": "abdominal pain localized in the hypogastrium",
+    "symptoms_present": [
+      "abdominal pain localized in the hypogastrium",
+      "acroparesthesia",
+      "hyposensitivity",
+      "sinus tachycardia",
+      "reduced heart rate variability"
+    ],
+    "symptoms_absent": [],
+    "candidate_mimics": [],
+    "final_diagnosis_evidence": "Both patients were confirmed to have a pathogenic GLA variant (c.298 A > T), which results in a premature stop codon and leads to a truncated α-galactosidase A enzyme.",
+    "red_flag_features": [
+      {
+        "test": "quantitative sensory testing (QST)",
+        "result": "",
+        "evidence_sentence": "However, QST revealed significantly elevated VDT in both upper and lower extremities (Fig. 3 ), with calculated percentiles exceeding 97.5..."
+      }
+    ],
+    "discriminating_features": [
+      {
+        "test": "nerve conduction studies",
+        "result": "normal",
+        "evidence_sentence": "Her physical examination was unremarkable, and nerve conduction studies along with needle electromyography yielded normal results."
+      },
+      {
+        "test": "needle electromyography",
+        "result": "normal",
+        "evidence_sentence": "Her physical examination was unremarkable, and nerve conduction studies along with needle electromyography yielded normal results."
+      }
+    ],
+    "nonspecific_features": [
+      {
+        "test": "abdominal imaging",
+        "result": "unremarkable",
+        "evidence_sentence": "However, additional assessments, including transthoracic echocardiography, blood chemistry, and abdominal imaging were unremarkable."
+      },
+      {
+        "test": "blood chemistry",
+        "result": "unremarkable",
+        "evidence_sentence": "However, additional assessments, including transthoracic echocardiography, blood chemistry, and abdominal imaging were unremarkable."
+      },
+      {
+        "test": "transthoracic echocardiography",
+        "result": "unremarkable",
+        "evidence_sentence": "However, additional assessments, including transthoracic echocardiography, blood chemistry, and abdominal imaging were unremarkable."
+      }
+    ],
+    "vignette": "A 5 years old-year-old patient presents with abdominal pain localized in the hypogastrium, acroparesthesia, hyposensitivity, sinus tachycardia, reduced heart rate variability.",
+    "ollama_review_notes": ""
+  }
+]

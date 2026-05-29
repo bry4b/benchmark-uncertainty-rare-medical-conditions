@@ -1,0 +1,294 @@
+{
+  "query": {
+    "disease": "Myasthenia gravis",
+    "desired_report_count": 10,
+    "retrieved_report_count": 1,
+    "open_access_only": true,
+    "ollama_model": "pubmed-extractor"
+  },
+  "records": [
+    {
+      "pmcid": "PMC12396124",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/38697115/",
+      "year": "2025",
+      "abstract": "ABSTRACT Myasthenia gravis (MG), a rare autoimmune disorder with poor prognosis, especially when complicated by opportunistic infections, which pose significant risks in clinical practice. We aimed to analyse a clinical case of a middle-aged male patient with MG, who developed severe lower gastrointestinal bleeding and multiple opportunistic infections post-immunosuppressive therapy. This case report is based on comprehensive clinical evaluations, including colonoscopy, histopathological examination, bronchoscopy, bronchoalveolar lavage (BAL), and metagenomic next-generation sequencing (mNGS). The patient exhibited persistent ptosis and pulmonary infection, and was treated with Meropenem 12 mg once daily (qd), Tacrolimus 2 mg qd, and Bromhexine 60 mg three times daily (tid). Due to ongoing lower gastrointestinal bleeding, surgery was performed. Colonoscopy revealed multiple ulcers, with histopathology confirming Cytomegalovirus (CMV) and Histoplasmosis infections. Bronchoalveolar lavage fluid (BALF) identified infections with Aspergillus fumigatus, Talaromyces, and Stenotrophomonas maltophilia. mNGS further detected Pneumocystis jirovecii. Based on these findings, the treatment plan was adjusted to include Amphotericin B complex 25 mg via intravenous (IV) qd, Tigecycline 100 mg q12h, and Sulfamethoxazole (SMZ) 0.96 g q6h for anti-infection, along with Ganciclovir 250 mg IV q12h. The patient continues to receive infusions of immunoglobulins and albumin. This case underscores the importance of monitoring MG patients on immunosuppressive therapy for opportunistic infections, emphasizing the complexity of managing multiple pathogens simultaneously.",
+      "extraction": {
+        "patients": [
+          {
+            "patient_id": "case_1",
+            "age": "45",
+            "sex": "male",
+            "confirmed_diagnosis": "Myasthenia gravis",
+            "final_diagnosis_evidence": "Diagnosed with MG in February 2023, he began immunosuppressive therapy with methylprednisolone 12 mg qd, tacrolimus 2 mg qd, and pyridostigmine 60 mg tid, but symptom control remained poor.",
+            "symptoms_presented": [
+              {
+                "raw_symptom": "eyelid drooping",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "A chief complaint of “drooping eyelid for 11 months and stomach bleeding for 6 days.”"
+              },
+              {
+                "raw_symptom": "stomach bleeding",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "A chief complaint of “drooping eyelid for 11 months and stomach bleeding for 6 days.”"
+              },
+              {
+                "raw_symptom": "blurred vision",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "Symptoms included intermittent eyelid drooping, blurred vision, slurred speech, limb fatigue, muscle soreness, difficulty standing, and occasional swallowing issues."
+              },
+              {
+                "raw_symptom": "slurred speech",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "Symptoms included intermittent eyelid drooping, blurred vision, slurred speech, limb fatigue, muscle soreness, difficulty standing, and occasional swallowing issues."
+              },
+              {
+                "raw_symptom": "limb fatigue",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "Symptoms included intermittent eyelid drooping, blurred vision, slurred speech, limb fatigue, muscle soreness, difficulty standing, and occasional swallowing issues."
+              },
+              {
+                "raw_symptom": "muscle soreness",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "Symptoms included intermittent eyelid drooping, blurred vision, slurred speech, limb fatigue, muscle soreness, difficulty standing, and occasional swallowing issues."
+              },
+              {
+                "raw_symptom": "difficulty standing",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "Symptoms included intermittent eyelid drooping, blurred vision, slurred speech, limb fatigue, muscle soreness, difficulty standing, and occasional swallowing issues."
+              },
+              {
+                "raw_symptom": "swallowing issues",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "Symptoms included intermittent eyelid drooping, blurred vision, slurred speech, limb fatigue, muscle soreness, difficulty standing, and occasional swallowing issues."
+              },
+              {
+                "raw_symptom": "fever",
+                "status": "absent",
+                "temporality": "",
+                "evidence_sentence": "In April 2023, the patient contracted H1N1 influenza, presenting with fever, respiratory distress, and limb weakness,"
+              },
+              {
+                "raw_symptom": "",
+                "status": "absent",
+                "temporality": "",
+                "evidence_sentence": ""
+              },
+              {
+                "raw_symptom": "anaemia",
+                "status": "present",
+                "temporality": "onset",
+                "evidence_sentence": "The patient appeared anaemic."
+              },
+              {
+                "raw_symptom": "coarse breath sounds",
+                "status": "present",
+                "temporality": "onset",
+                "evidence_sentence": "Cardiac and pulmonary auscultation showed no abnormalities; however, coarse breath sounds were heard in both lungs"
+              },
+              {
+                "raw_symptom": "dry crackles",
+                "status": "present",
+                "temporality": "onset",
+                "evidence_sentence": "Coarse breath sounds and both dry and wet crackles were heard in both lungs, indicating a lung infection."
+              },
+              {
+                "raw_symptom": "wet crackles",
+                "status": "present",
+                "temporality": "onset",
+                "evidence_sentence": "Coarse breath sounds and both dry and wet crackles were heard in both lungs, indicating a lung infection."
+              }
+            ],
+            "negative_findings": [
+              {
+                "finding": "fever",
+                "status": "absent",
+                "evidence_sentence": "In April 2023, the patient contracted H1N1 influenza, presenting with fever, respiratory distress, and limb weakness,"
+              },
+              {
+                "finding": "respiratory distress",
+                "status": "absent",
+                "evidence_sentence": "In April 2023, the patient contracted H1N1 influenza, presenting with fever, respiratory distress, and limb weakness,"
+              },
+              {
+                "finding": "fever",
+                "status": "absent",
+                "evidence_sentence": "body temperature 36.5°C"
+              },
+              {
+                "finding": "tachycardia",
+                "status": "absent",
+                "evidence_sentence": "pulse rate 120 beats per minute"
+              },
+              {
+                "finding": "",
+                "status": "absent",
+                "evidence_sentence": ""
+              },
+              {
+                "finding": "no fever",
+                "status": "absent",
+                "evidence_sentence": "No fever was reported."
+              },
+              {
+                "finding": "normal temperature",
+                "status": "absent",
+                "evidence_sentence": "The patient’s temperature was normal."
+              },
+              {
+                "finding": "no pathogenic organisms",
+                "status": "absent",
+                "evidence_sentence": "On December 25, subsequent BALF testing showed no pathogenic organisms,"
+              },
+              {
+                "finding": "fever",
+                "status": "absent",
+                "evidence_sentence": "The patient was afebrile"
+              },
+              {
+                "finding": "no lung infection",
+                "status": "absent",
+                "evidence_sentence": "Considering the suspected lung infection, a combination of meropenem (12 mg qd) and linezolid (0.6 mg qd) was administered for anti-infection therapy."
+              },
+              {
+                "finding": "no fever",
+                "status": "absent",
+                "evidence_sentence": ""
+              },
+              {
+                "finding": "normal liver function tests prior to antibiotic adjustment",
+                "status": "",
+                "evidence_sentence": ""
+              },
+              {
+                "finding": "haemoglobin levels",
+                "status": "absent",
+                "evidence_sentence": "Postoperatively, the patient continued to receive anti-infection and supportive treatment while monitoring haemoglobin levels"
+              },
+              {
+                "finding": "stool characteristics",
+                "status": "absent",
+                "evidence_sentence": "Postoperatively, the patient continued to receive anti-infection and supportive treatment while monitoring haemoglobin levels and stool characteristics"
+              },
+              {
+                "finding": "respiratory function",
+                "status": "absent",
+                "evidence_sentence": "the patient’s condition stabilized"
+              },
+              {
+                "finding": "rebound tenderness",
+                "status": "absent",
+                "evidence_sentence": "Abdominal examination showed no significant tenderness, rebound tenderness, or palpable masses"
+              }
+            ],
+            "diagnostic_tests": [
+              {
+                "test": "pulmonary artery CTA",
+                "result": "multiple small patchy low-density filling defects in the main pulmonary arteries of both lungs, the apical posterior segment of the right upper lobe, the middle lobe of the right lung, and the pulmonary artery branches of both lower lobes",
+                "evidence_sentence": "On 6 November 2023, a pulmonary artery CTA revealed multiple small patchy low-density filling defects in the main pulmonary arteries of both lungs, the apical posterior segment of the right upper lobe, the middle lobe of the right lung, and the pulmonary artery branches of both lower lobes, indicating multiple thrombi."
+              },
+              {
+                "test": "Pulmonary artery CTA",
+                "result": "multiple small patchy low-density filling defects in the main pulmonary arteries of both lungs",
+                "evidence_sentence": "On 6 November 2023, a pulmonary artery CTA revealed multiple small patchy low-density filling defects in the main pulmonary arteries of both lungs,"
+              },
+              {
+                "test": "BALF mNGS",
+                "result": "Stenotrophomonas maltophilia, Enterococcus faecalis, Pneumocystis jirovecii, and T. marneffei",
+                "evidence_sentence": "Before this admission, he presented to the emergency department due to worsening gastrointestinal bleeding, accompanied by abdominal pain, bloating, diarrhoea, loose stools, and chest pain."
+              },
+              {
+                "test": "chest CT scan",
+                "result": "",
+                "evidence_sentence": "Based on the results of a chest CT scan, revealed bronchiectasis in the lower lobes (more prominent on the right) with thickened bronchial walls, peripheral high-density shadows, multiple solid nodules with clear margins, occasional spiculation, pleural traction, and scattered patchy opacities,"
+              },
+              {
+                "test": "complete blood count",
+                "result": "elevated white blood cells (WBC)29x10^9/L and neutrophils (NEUT) percentage 84.9%",
+                "evidence_sentence": "Complete blood count revealed elevated white blood cells (WBC)29x10^9/L and neutrophils (NEUT) percentage 84.9%, increased C-reactive protein (CRP) 7 mg/L, and elevated procalcitonin (PCT) 1.08 μg/L"
+              },
+              {
+                "test": "coagulation tests",
+                "result": "prolonged prothrombin time",
+                "evidence_sentence": "Coagulation tests indicated prolonged prothrombin time (Supplementary Table 1), consistent with gastrointestinal bleeding."
+              },
+              {
+                "test": "",
+                "result": "",
+                "evidence_sentence": ""
+              },
+              {
+                "test": "BALF NGS",
+                "result": "",
+                "evidence_sentence": "BALF NGS suggested multiple bacterial, fungal, and viral infections,"
+              },
+              {
+                "test": "TBIL",
+                "result": "145.2 μmol/L",
+                "evidence_sentence": "The patient’s TBIL rose to 145.2 μmol/L"
+              },
+              {
+                "test": "BALF testing",
+                "result": "no pathogenic organisms",
+                "evidence_sentence": "On December 25, subsequent BALF testing showed no pathogenic organisms,"
+              },
+              {
+                "test": "Cough examination",
+                "result": "",
+                "evidence_sentence": ""
+              },
+              {
+                "test": "meropenem",
+                "result": "",
+                "evidence_sentence": "Considering the suspected lung infection, a combination of meropenem (12 mg qd) and linezolid (0.6 mg qd) was administered for anti-infection therapy."
+              },
+              {
+                "test": "linezolid",
+                "result": "",
+                "evidence_sentence": "Considering the suspected lung infection, a combination of meropenem (12 mg qd) and linezolid (0.6 mg qd) was administered for anti-infection therapy."
+              },
+              {
+                "test": "BALF NGS",
+                "result": "multiple bacterial, fungal, and viral infections",
+                "evidence_sentence": "BALF NGS suggested multiple bacterial, fungal, and viral infections, prompting an adjustment in the treatment regimen."
+              },
+              {
+                "test": "spontaneous breathing trial (SBT)",
+                "result": "",
+                "evidence_sentence": "a spontaneous breathing trial (SBT) was attempted"
+              },
+              {
+                "test": "chest CT scan",
+                "result": "revealed bronchiectasis in the lower lobes (more prominent on the right) with thickened bronchial walls, peripheral high-density shadows, multiple solid nodules with clear margins, occasional spiculation, pleural traction, and scattered patchy opacities",
+                "evidence_sentence": "Based on the results of a chest CT scan"
+              },
+              {
+                "test": "colonoscopy examination",
+                "result": "",
+                "evidence_sentence": "Figure G) colonoscopy examination."
+              }
+            ],
+            "initial_misdiagnoses_or_mimics": [
+              {
+                "diagnosis": "",
+                "evidence_sentence": ""
+              },
+              {
+                "diagnosis": "unknown",
+                "evidence_sentence": ""
+              }
+            ]
+          }
+        ]
+      },
+      "review_status": "needs_human_review"
+    }
+  ]
+}

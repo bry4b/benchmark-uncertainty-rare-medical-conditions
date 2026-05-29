@@ -1,0 +1,169 @@
+{
+  "query": {
+    "disease": "wilson",
+    "desired_report_count": 10,
+    "retrieved_report_count": 1,
+    "open_access_only": true,
+    "ollama_model": "pubmed-extractor"
+  },
+  "records": [
+    {
+      "pmcid": "PMC12831825",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37583127/",
+      "year": "2025",
+      "abstract": "ABSTRACT Wilson's disease is characterized by copper accumulation in organs like liver, brain, and eyes, presenting with a varied clinical features, making it challenging to diagnose. This report describes a case of Wilson's disease with unusual hematological features. A 12-year-old from Himalayan region presented with weakness, dysarthria, tremors. Initial investigations revealed pancytopenia, and bone marrow showed a lymphoproliferative disorder. He developed behavioral changes, a flat affect, and scanning speech. Wilson's disease was confirmed through Kayser-Fleischer rings, reduced serum ceruloplasmin levels, and elevated urinary copper, supported by imaging.",
+      "extraction": {
+        "patients": [
+          {
+            "patient_id": "case_1",
+            "age": "12 years",
+            "sex": "",
+            "confirmed_diagnosis": "Wilson's disease",
+            "final_diagnosis_evidence": "The diagnosis of Wilson's disease was established based on the criteria from the 8th International Wilson's Disease Meeting, Leipzig, 2001.",
+            "symptoms_presented": [
+              {
+                "raw_symptom": "progressive limb weakness",
+                "status": "present",
+                "temporality": "initially made him unable to lift small objects and gradually worsened",
+                "evidence_sentence": "The weakness initially made him unable to lift small objects and gradually worsened, leading to frequent falls while walking."
+              },
+              {
+                "raw_symptom": "alterations in speech",
+                "status": "present",
+                "temporality": "developed two months later",
+                "evidence_sentence": "Two months later, the child developed alterations in speech that progressed to an inability to verbalize within a month"
+              },
+              {
+                "raw_symptom": "difficulty grasping objects",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": ""
+              },
+              {
+                "raw_symptom": "decline in scholastic performances",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": ""
+              },
+              {
+                "raw_symptom": "progressive worsening of handwriting",
+                "status": "present",
+                "temporality": "became unrecognizable over the course of a month",
+                "evidence_sentence": "Further inquiry revealed the deterioration in performance was primarily due to progressive worsening of his handwriting, which became unrecognizable over the course of a month."
+              },
+              {
+                "raw_symptom": "increased stubbornness",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": ""
+              },
+              {
+                "raw_symptom": "incoherence during this period",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": ""
+              },
+              {
+                "raw_symptom": "",
+                "status": "absent",
+                "temporality": "",
+                "evidence_sentence": ""
+              },
+              {
+                "raw_symptom": "neuropsychiatric features",
+                "status": "resolved",
+                "temporality": "",
+                "evidence_sentence": "The neuropsychiatric features have resolved"
+              }
+            ],
+            "negative_findings": [
+              {
+                "finding": "no abnormal movements or episodes of fainting",
+                "status": "absent",
+                "evidence_sentence": "Although there were no associated abnormal movements or episodes of fainting."
+              },
+              {
+                "finding": "normal gait",
+                "status": "absent",
+                "evidence_sentence": "Neurological evaluation revealed scanning speech and a normal gait, with no other cerebellar signs or focal neurological deficits."
+              },
+              {
+                "finding": "no fever",
+                "status": "absent",
+                "evidence_sentence": "Despite routine follow-ups, no clear explanation emerged for the neuropsychiatric manifestations until further neurological evaluations revealed the presence of a Kayser-Fleischer ring on slit-lamp examination."
+              },
+              {
+                "finding": "normal liver function tests",
+                "status": "absent",
+                "evidence_sentence": "Liver function tests were normal (Table 1)."
+              },
+              {
+                "finding": "no fever",
+                "status": "absent",
+                "evidence_sentence": ""
+              },
+              {
+                "finding": "no temperature",
+                "status": "absent",
+                "evidence_sentence": ""
+              }
+            ],
+            "diagnostic_tests": [
+              {
+                "test": "peripheral blood smear",
+                "result": "dimorphic anemia (normocytic and microcytic)",
+                "evidence_sentence": "Initial laboratory investigations revealed pancytopenia, and a peripheral blood smear showed dimorphic anemia (normocytic and microcytic) ( Table 1 )."
+              },
+              {
+                "test": "bone marrow aspiration",
+                "result": "lymphocytosis with dyserythropoiesis and increased megakaryopoiesis",
+                "evidence_sentence": "Bone marrow aspiration findings included lymphocytosis with dyserythropoiesis and increased megakaryopoiesis, raising the possibility of a lymphoproliferative disorder."
+              },
+              {
+                "test": "ultrasonography of the abdomen",
+                "result": "splenomegaly measuring 14.75 cm",
+                "evidence_sentence": "Ultrasonography of the abdomen confirmed splenomegaly measuring 14.75 cm."
+              },
+              {
+                "test": "Direct Coomb's test",
+                "result": "negative",
+                "evidence_sentence": "Additional tests showed a Direct Coomb's test negative, serum ceruloplasmin level of 18.8 mg/dl and, urinary copper of 57 mcg/24 hours (Table 1)."
+              },
+              {
+                "test": "Serum ceruloplasmin",
+                "result": "low (18.8 mg/dl)",
+                "evidence_sentence": "Additional tests showed a Direct Coomb's test negative, serum ceruloplasmin level of 18.8 mg/dl and, urinary copper of 57 mcg/24 hours (Table 1)."
+              },
+              {
+                "test": "Urinary copper",
+                "result": "elevated (57 mcg/24 hours)",
+                "evidence_sentence": "Additional tests showed a Direct Coomb's test negative, serum ceruloplasmin level of 18.8 mg/dl and, urinary copper of 57 mcg/24 hours (Table 1)."
+              },
+              {
+                "test": "MRI",
+                "result": "FLAIR high-signal intensities in bilateral lentiform nucleus and thalamus",
+                "evidence_sentence": "Magnetic resonance imaging (MRI) of the brain demonstrated Fluid Attenuated Inversion Recovery (FLAIR) high-signal intensities in bilateral lentiform nucleus and thalamus, consistent with early manifestations of Wilson's disease (Figure 1)."
+              },
+              {
+                "test": "Magnetic resonance imaging (MRI)",
+                "result": "FLAIR high-signal intensities in bilateral lentiform nucleus and thalamus",
+                "evidence_sentence": "Magnetic resonance imaging (MRI) of the brain demonstrated Fluid Attenuated Inversion Recovery (FLAIR) high-signal intensities in bilateral lentiform nucleus and thalamus"
+              }
+            ],
+            "initial_misdiagnoses_or_mimics": [
+              {
+                "diagnosis": "thalassemia major",
+                "evidence_sentence": ""
+              },
+              {
+                "diagnosis": "",
+                "evidence_sentence": ""
+              }
+            ]
+          }
+        ]
+      },
+      "review_status": "needs_human_review"
+    }
+  ]
+}

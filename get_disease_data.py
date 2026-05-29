@@ -839,6 +839,7 @@ def collect_cases(
         email=email,
         api_key=api_key,
     )
+    pmids = pmids + [disease]
 
     pmid_to_pmcid = link_pmids_to_pmcids(pmids, email=email, api_key=api_key)
     print(f"Found {len(pmid_to_pmcid)} candidate records with PMC full-text links.")
@@ -889,6 +890,42 @@ def collect_cases(
     print(f"\nSaved {len(records)} records to {output_file}")
     return output
 
+def extract_case_by_pmid(
+    pmid: str,
+    disease: str,
+    email: str,
+    ollama_model: str,
+    api_key: Optional[str] = None,
+    open_access_only: bool = False,
+    max_chars_per_chunk: int = 7500,
+) -> Optional[Dict[str, Any]]:
+    """
+    Extract a single case report using its PubMed ID (PMID).
+    Returns the structured extraction or None if not available.
+    """
+    # Link PMID to PMCID
+    pmid_to_pmcid = link_pmids_to_pmcids([pmid], email=email, api_key=api_key)
+    pmcid = pmid_to_pmcid.get(pmid)
+    if not pmcid:
+        print(f"No PMC full-text found for PMID {pmid}")
+        return None
+
+    # Process the article as usual
+    try:
+        record = process_one_article(
+            disease=disease,
+            pmid=pmid,
+            pmcid=pmcid,
+            email=email,
+            ollama_model=ollama_model,
+            api_key=api_key,
+            open_access_only=open_access_only,
+            max_chars_per_chunk=max_chars_per_chunk,
+        )
+        return record
+    except Exception as exc:
+        print(f"Failed to extract case for PMID {pmid}: {exc}")
+        return None
 
 # -----------------------------
 # CLI
@@ -993,6 +1030,15 @@ def main() -> None:
         max_chars_per_chunk=max_chars_per_chunk,
     )
 
+    # extract_case_by_pmid(
+    #     pmid="36155286",
+    #     disease=disease,
+    #     email=email,
+    #     ollama_model=ollama_model,
+    #     api_key=api_key,
+    #     open_access_only=open_access_only,
+    #     max_chars_per_chunk=max_chars_per_chunk,
+    # )
 
 if __name__ == "__main__":
     main()

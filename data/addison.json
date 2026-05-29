@@ -1,0 +1,157 @@
+{
+  "query": {
+    "disease": "autoimmune addison",
+    "desired_report_count": 10,
+    "retrieved_report_count": 1,
+    "open_access_only": true,
+    "ollama_model": "pubmed-extractor"
+  },
+  "records": [
+    {
+      "pmcid": "PMC10387197",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/29350667/",
+      "year": "2023",
+      "abstract": "Background Primary adrenal insufficiency (PAI) in childhood is a life-threatening disease most commonly due to impaired steroidogenesis. Differently from adulthood, autoimmune adrenalitis is a rare condition amongst PAI’s main aetiologies and could present as an isolated disorder or as a component of polyglandular syndromes, particularly type 2. As a matter of fact, autoimmune polyglandular syndrome (APS) type 2 consists of the association between autoimmune Addison’s disease, type 1 diabetes mellitus and/or Hashimoto’s disease. Case presentation We report the case of an 8-year-old girl who presented Addison’s disease and autoimmune thyroiditis at an early stage of life. The initial course of the disease was characterized by numerous crises of adrenal insufficiency, subsequently the treatment was adjusted in a tertiary hospital with improvement of disease control. Conclusions APS type 2 is a rare condition during childhood, probably because it may remain latent for long periods before resulting in the overt disease. We recommend an early detection of APS type 2 and an adequate treatment of adrenal insufficiency in a tertiary hospital. Moreover, we underline the importance of a regular follow-up in patients with autoimmune diseases, since unrevealed and incomplete forms are frequent, especially in childhood.",
+      "extraction": {
+        "patients": [
+          {
+            "patient_id": "case_1",
+            "age": "8 years",
+            "sex": "",
+            "confirmed_diagnosis": "Autoimmune Addison disease",
+            "final_diagnosis_evidence": "High levels of 21-hydroxylase antibodies, significantly high renin level (631.2 mU/L)",
+            "symptoms_presented": [
+              {
+                "raw_symptom": "Nausea",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "Her complaints of nausea"
+              },
+              {
+                "raw_symptom": "Persistent vomiting",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "Her complaints of persistent vomiting and abdominal pain"
+              },
+              {
+                "raw_symptom": "Abdominal pain",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "Her complaints of nausea, persistent vomiting and abdominal pain that had begun a few hours earlier"
+              },
+              {
+                "raw_symptom": "acute adrenal insufficiency symptoms",
+                "status": "absent",
+                "temporality": "remarkable clinical improvement",
+                "evidence_sentence": "(0.1 mg/day), with a remarkable clinical improvement and without further relapses of symptoms related to acute adrenal insufficiency."
+              },
+              {
+                "raw_symptom": "",
+                "status": "absent",
+                "temporality": "",
+                "evidence_sentence": ""
+              }
+            ],
+            "negative_findings": [
+              {
+                "finding": "Fever",
+                "status": "absent",
+                "evidence_sentence": "In the ED, she appeared in poor general conditions, dehydrated and with a suntanned appearance, while the rest of her physical examination was unremarkable"
+              },
+              {
+                "finding": "fever",
+                "status": "absent",
+                "evidence_sentence": "no fever"
+              },
+              {
+                "finding": "diabetes mellitus",
+                "status": "absent",
+                "evidence_sentence": "the remaining autoimmunity panels related to diabetes mellitus, thyroid disease, and atrophic gastritis were negative."
+              },
+              {
+                "finding": "thyroid disease",
+                "status": "absent",
+                "evidence_sentence": "the remaining autoimmunity panels related to diabetes mellitus, thyroid disease, and atrophic gastritis were negative."
+              },
+              {
+                "finding": "atrophic gastritis",
+                "status": "absent",
+                "evidence_sentence": "the remaining autoimmunity panels related to diabetes mellitus, thyroid disease, and atrophic gastritis were negative."
+              },
+              {
+                "finding": "no weight gain",
+                "status": "absent",
+                "evidence_sentence": "Moreover, she had a considerable weight improvement"
+              },
+              {
+                "finding": "normal height for age",
+                "status": "absent",
+                "evidence_sentence": "height (163.5 cm; mother’s height 170 cm, father’s height 170 cm)"
+              }
+            ],
+            "diagnostic_tests": [
+              {
+                "test": "Blood analysis",
+                "result": "Severe hypoglycaemia (1.39 mmoL/L), hyponatremia (126 mmoL/L) and hyperkalaemia (6.1 mmoL/L)",
+                "evidence_sentence": "Her blood analysis showed a severe hypoglycaemia (1.39 mmoL/L), hyponatremia (126 mmoL/L) and hyperkalaemia (6.1 mmoL/L)"
+              },
+              {
+                "test": "Renin level",
+                "result": "Significantly high renin level (631.2 mU/L)",
+                "evidence_sentence": "Following the identification of significantly high renin level (631.2 mU/L), we introduced a mineralocorticoid replacement therapy with fludrocortisone"
+              },
+              {
+                "test": "ACTH level",
+                "result": "High ACTH (> 278 pmoL/L)",
+                "evidence_sentence": "Further blood analysis showed low cortisol (< 0.50 nmoL/L), normal renin (44.9 mU/L, normal values 5.5–80 mU/L), low aldosterone levels (26.9 pmoL/L, normal values 138–831 pmol/L) with high ACTH (> 278 pmoL/L)"
+              },
+              {
+                "test": "thyroid peroxidase",
+                "result": "65 kU/L",
+                "evidence_sentence": "we repeated all the autoimmunity panels and we found a positivity for thyroid peroxidase (65 kU/L)"
+              },
+              {
+                "test": "thyroglobulin antibodies",
+                "result": "72 UI/mL",
+                "evidence_sentence": "we repeated all the autoimmunity panels and we found a positivity for thyroglobulin antibodies (72 UI/mL)"
+              },
+              {
+                "test": "hydrocortisone dose",
+                "result": "decreased",
+                "evidence_sentence": "Her adrenal function always remained well-compensated (cortisol 445 nmol/L, ACTH 9.89 pmol/L, renin 59.10 mU/L, aldosterone 41.61 pmol/L)"
+              },
+              {
+                "test": "fludrocortisone dose",
+                "result": "stable",
+                "evidence_sentence": "Her adrenal function always remained well-compensated (cortisol 445 nmol/L, ACTH 9.89 pmol/L, renin 59.10 mU/L, aldosterone 41.61 pmol/L)"
+              }
+            ],
+            "initial_misdiagnoses_or_mimics": [
+              {
+                "diagnosis": "Autoimmune thyroid disease",
+                "evidence_sentence": "Her past medical history was silent except for a recently appeared alopecia and for a familial predisposition for autoimmune thyroid disease"
+              },
+              {
+                "diagnosis": "Diabetes mellitus",
+                "evidence_sentence": "They are both taking levothyroxine treatment. Recently the patient’s twin sister developed an autoimmune thyroiditis with subclinical hypothyroidism that has never needed any replacing therapy."
+              },
+              {
+                "diagnosis": "Atrophic gastritis",
+                "evidence_sentence": "Nevertheless, a subclinical hypothyroidism was pointed out, with TSH levels (6.64 mU/L) slightly above threshold"
+              },
+              {
+                "diagnosis": "autoimmune thyroiditis",
+                "evidence_sentence": "leading us to the diagnosis of autoimmune thyroiditis."
+              },
+              {
+                "diagnosis": "",
+                "evidence_sentence": ""
+              }
+            ]
+          }
+        ]
+      },
+      "review_status": "needs_human_review"
+    }
+  ]
+}

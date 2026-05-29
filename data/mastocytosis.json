@@ -1,0 +1,211 @@
+{
+  "query": {
+    "disease": "indolent systemic mastocytosis",
+    "desired_report_count": 10,
+    "retrieved_report_count": 1,
+    "open_access_only": true,
+    "ollama_model": "pubmed-extractor"
+  },
+  "records": [
+    {
+      "pmcid": "PMC12170766",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/26003033/",
+      "year": "2025",
+      "abstract": "Hymenoptera anaphylaxis led to the death of a bee and wasp venom sensitized 41-year-old man suffering from systemic indolent mastocytosis. While at work in a vineyard, the man suffered a serious anaphylactic crisis and cardiovascular arrest; despite ongoing attempts of resuscitation, he died in hospital 12 h after being stung. Autopsy confirmed that death was due to post-anoxic brain damage, cardiovascular shock, disseminated intravascular coagulation (DIC) and multi-organ failure (MOF). ICU blood samples drawn before the patient’s death from the distal extremity of the pulmonary catheter revealed central blood tryptase levels of 8955 ng/mL; samples drawn 6 days after death, at autopsy, confirmed anaphylaxis diagnostic central blood total tryptase levels (4977 ng/mL) and peripheral blood levels (319 ng/mL); IgE levels in ICU blood sample suggested that the farmer was a responder to venom immunoteraphy (VIT) for Apis Mellifera (IgE 0.44 kUI/L) but not for Polistes Dominulus (IgE 3.13 kUI/L) yet. The comparison of perimortem laboratory results was crucial, in association with autopsy findings and circumstantial data, in ascertaining that death was caused by a wasp venom anaphylactic reaction, with key findings being: 1) Significantly high pre-mortem (8955 ng/mL) and post-mortem (4977 ng/mL) central blood tryptase levels. 2) High post-mortem peripheral blood tryptase levels (319 ng/mL). 3) High pre-mortem central blood IgE antibodies against Polistes Dominulus .",
+      "extraction": {
+        "patients": [
+          {
+            "patient_id": "case_1",
+            "age": "41",
+            "sex": "male",
+            "confirmed_diagnosis": "indolent systemic mastocytosis",
+            "final_diagnosis_evidence": "Based on clinical history, autopsy results and histological data, although the absence of cutaneous signs compatible with a hymenoptera sting, the cause of death was attributed to anaphylactic shock secondary to a wasp sting and indolent systemic mastocytosis which was a significant contributing factor (Table 2 ).",
+            "symptoms_presented": [
+              {
+                "raw_symptom": "dyspnoeic",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "became dyspnoeic"
+              },
+              {
+                "raw_symptom": "collapsed",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "collapsed"
+              },
+              {
+                "raw_symptom": "lost consciousness",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "shortly lost consciousness"
+              },
+              {
+                "raw_symptom": "",
+                "status": "absent",
+                "temporality": "",
+                "evidence_sentence": ""
+              },
+              {
+                "raw_symptom": "oedema",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "weight: right 720 g, left 740 g"
+              },
+              {
+                "raw_symptom": "hypotension",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "with previous anaphylactic episodes involving hypotension and syncope"
+              },
+              {
+                "raw_symptom": "syncope",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "with previous anaphylactic episodes involving hypotension and syncope"
+              }
+            ],
+            "negative_findings": [
+              {
+                "finding": "fever",
+                "status": "absent",
+                "evidence_sentence": "no fever"
+              },
+              {
+                "finding": "normal heart rate",
+                "status": "absent",
+                "evidence_sentence": ""
+              },
+              {
+                "finding": "no lesions in duodenum",
+                "status": "absent",
+                "evidence_sentence": "Duodenum: no lesions"
+              },
+              {
+                "finding": "normal coronaries",
+                "status": "absent",
+                "evidence_sentence": "Heart • pale with dilated chambers • normal coronaries • weight 420 g"
+              },
+              {
+                "finding": "no fever",
+                "status": "absent",
+                "evidence_sentence": "During resuscitative procedures in the ICU, a central blood sample from a pulmonary catheter was taken 5 h after the onset of cardiac arrest to perform routine laboratory analysis."
+              },
+              {
+                "finding": "no mechanical damage of blood cell",
+                "status": "absent",
+                "evidence_sentence": "the fact that the patient was attached to an ECMO device which has pumps which can cause the mechanical damage of blood cell"
+              },
+              {
+                "finding": "no lysis of basophils and eosinophils",
+                "status": "absent",
+                "evidence_sentence": "the fact that the patient was attached to an ECMO device which has pumps which can cause the mechanical damage of blood cell and lysis of basophils and eosinophils"
+              },
+              {
+                "finding": "no IgE antibodies against Polistes Dominulus",
+                "status": "absent",
+                "evidence_sentence": "the presence of significant serum levels of IgE antibodies against Polistes Dominulus (IgE 3.13 kUI/L) able to interact, through antigen-IgE complexes, with a high and/or dysfunctional number of FcεgE receptors in mastocyte membranes"
+              },
+              {
+                "finding": "tryptase levels in living patients usually return to baseline within 24 h of the onset of an anaphylactic crisis",
+                "status": "absent",
+                "evidence_sentence": "In a clinical setting, tryptase levels in living patients usually return to baseline within 24 h of the onset of an anaphylactic crisis"
+              },
+              {
+                "finding": "the decline in post-mortem tryptase levels is slower and may persist for several days under the effects of post-mortem mastocyte lysis",
+                "status": "absent",
+                "evidence_sentence": "The decline in post-mortem tryptase levels is slower and may persist for several days under the effects of post-mortem mastocyte lysis"
+              },
+              {
+                "finding": "no venom immunotherapy treatment completed",
+                "status": "absent",
+                "evidence_sentence": "Unfortunately, at the moment the farmer was stung he had started but not completed venom immunotherapy treatment (VIT),"
+              },
+              {
+                "finding": "urticaria pigmentosa",
+                "status": "absent",
+                "evidence_sentence": "an absence of urticaria pigmentosa"
+              },
+              {
+                "finding": "no evidence of anaphylactic death",
+                "status": "absent",
+                "evidence_sentence": "the death was caused by hymenoptera venom but also to exclude medical liability in the way preventive VIT therapies and resuscitation procedures were performed."
+              }
+            ],
+            "diagnostic_tests": [
+              {
+                "test": "ECMO device",
+                "result": "",
+                "evidence_sentence": "put on an ECMO device"
+              },
+              {
+                "test": "computed tomography brain scan",
+                "result": "widespread lack of differentiation between white matter and cortical and deep gray matter, compatible with severe post-anoxic brain oedema and coma",
+                "evidence_sentence": "A computed tomography brain scan revealed a widespread lack of differentiation..."
+              },
+              {
+                "test": "IgE levels for Hymenoptera venom",
+                "result": "",
+                "evidence_sentence": "The individual had previously been screened at an allergology centre because he had already been stung several times by hymenoptera, but without serious cardiovascular consequences."
+              },
+              {
+                "test": "IgE (Immunofluorimetric assay FEIA ThermoFisher Scientific - Phadia 2500 Instrument)",
+                "result": "",
+                "evidence_sentence": "After being stored in the laboratory (in anticipation of a potential organ donation), it was used for post-mortem research into IgE (Immunofluorimetric assay FEIA ThermoFisher Scientific - Phadia 2500 Instrument) and tryptase levels,"
+              },
+              {
+                "test": "tryptase (Immunofluorimetric assay FEIA ThermoFisher Scientific - Phadia 250 Instrument)",
+                "result": "",
+                "evidence_sentence": "After being stored in the laboratory (in anticipation of a potential organ donation), it was used for post-mortem research into IgE (Immunofluorimetric assay FEIA ThermoFisher Scientific - Phadia 2500 Instrument) and tryptase levels,"
+              },
+              {
+                "test": "serum tryptase levels",
+                "result": "high (8955 ng/mL) and post-mortem (4977 ng/mL)",
+                "evidence_sentence": "Levels found in this case were unusually high and may have been caused by: the basic over-proliferation and dysfunction of mastocytes due to systemic indolent mastocytosis which causes an abnormal release of vasoactive mediators during an anaphylactic crisis."
+              },
+              {
+                "test": "",
+                "result": "",
+                "evidence_sentence": ""
+              },
+              {
+                "test": "serum IgE levels against Polistes Dominulus venom",
+                "result": "",
+                "evidence_sentence": "having just finished the first cycle (1 session) for Polistes Dominulus venom so that the serum IgE levels against this wasp were still high due to incomplete desensitization;"
+              },
+              {
+                "test": "peripheral blood sampling from clamped iliac/femoral vessels",
+                "result": "",
+                "evidence_sentence": "Peripheral blood sampling from clamped iliac/femoral vessels, as soon as possible after death, should be a standard procedure during forensic investigations of anaphylactic deaths in order to avoid unreliable serum tryptase data"
+              },
+              {
+                "test": "serum tryptase levels",
+                "result": "",
+                "evidence_sentence": "make useful diagnostic comparisons of serum tryptase levels during the post-mortem phase of the investigation"
+              },
+              {
+                "test": "specific IgE",
+                "result": "",
+                "evidence_sentence": "must be contextualized within clinical history, autopsy findings and ancillary tests, such as specific IgE"
+              }
+            ],
+            "initial_misdiagnoses_or_mimics": [
+              {
+                "diagnosis": "",
+                "evidence_sentence": ""
+              },
+              {
+                "diagnosis": "hymenoptera sting",
+                "evidence_sentence": ""
+              },
+              {
+                "diagnosis": "Apis Mellifera venom",
+                "evidence_sentence": "having just finished the first cycle (8 sessions) of VIT treatment for Apis Mellifera venom"
+              }
+            ]
+          }
+        ]
+      },
+      "review_status": "needs_human_review"
+    }
+  ]
+}

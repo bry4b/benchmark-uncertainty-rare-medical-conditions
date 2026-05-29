@@ -1,0 +1,94 @@
+[
+  {
+    "case_id": "PMC11512492_case_1",
+    "source": {
+      "pmcid": "PMC11512492",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39463915/",
+      "year": "2024",
+      "review_status": "needs_human_review"
+    },
+    "ground_truth_diagnosis": "Acute Intermittent Porphyrin (AIP)",
+    "patient_profile": {
+      "age": "20 years",
+      "sex": "female"
+    },
+    "symptoms_present": [
+      "Severe abdominal pain",
+      "Persistent vomiting",
+      "Tachycardia",
+      "Hypertension",
+      "Dark-colored urine",
+      "Dehydration",
+      "Abdominal pain",
+      "Nausea and vomiting",
+      "Headache"
+    ],
+    "symptoms_absent": [
+      "Fever",
+      "No fever"
+    ],
+    "labs_or_tests": [
+      {
+        "test": "Urine dip sample",
+        "result": "++++leukocytes and +++nitrates",
+        "evidence_sentence": "A urine dip sample showed +++leukocytes and +++nitrates."
+      },
+      {
+        "test": "Unenhanced CT imaging",
+        "result": "",
+        "evidence_sentence": "Initial diagnostic evaluations, including unenhanced CT imaging (Figure 1 and Figure 2 ) and routine laboratory tests (Table 1 ), yielded no acute abnormalities;"
+      },
+      {
+        "test": "Routine laboratory tests",
+        "result": "",
+        "evidence_sentence": "Initial diagnostic evaluations, including unenhanced CT imaging (Figure 1 and Figure 2 ) and routine laboratory tests (Table 1 ), yielded no acute abnormalities;"
+      },
+      {
+        "test": "Urine porphyrin/creatinine ratio",
+        "result": "213 nmol/mmol Cr",
+        "evidence_sentence": "Uraine porphyrin/creatinine ratio 213 nmol/mmol Cr <35nmol/mmol Cr"
+      },
+      {
+        "test": "Urine PBG/creatinine ratio",
+        "result": "37.4 umol/mmol Cr",
+        "evidence_sentence": "Uraine PBG/creatinine ratio 37.4 umol/mmol Cr <1.5 umol/mmol Cr"
+      },
+      {
+        "test": "Urine ALA/creatinine",
+        "result": "131 mmol/mol Cr",
+        "evidence_sentence": "Uraine ALA/creatinine 131 mmol/mol Cr <3.3 mmol/mol Cr"
+      }
+    ],
+    "candidate_mimics": [
+      {
+        "diagnosis": "Urinary tract infection",
+        "evidence_sentence": "She also had a history of recurrent urinary tract infections (UTI) and a prior Intensive Care Unit admission for the syndrome of inappropriate antidiuretic hormone secretion (SIADH)."
+      },
+      {
+        "diagnosis": "None mentioned",
+        "evidence_sentence": ""
+      }
+    ],
+    "final_diagnosis_evidence": "Subsequent analysis of urine revealed elevated levels of porphobilinogen (PBG) and urine porphyrin/creatinine ratio.",
+    "red_flag_features": [
+      "Dark-colored urine",
+      "Severe abdominal pain"
+    ],
+    "discriminating_features": [
+      "Persistent vomiting",
+      "Tachycardia",
+      "Hypertension",
+      "Urine dip sample result: +++leukocytes and +++nitrates",
+      "Urine porphyrin/creatinine ratio result: 213 nmol/mmol Cr"
+    ],
+    "nonspecific_features": [
+      "Abdominal pain",
+      "Nausea and vomiting",
+      "Headache",
+      "Unenhanced CT imaging result: ",
+      "Routine laboratory tests result: "
+    ],
+    "vignette": "A 20 years-year-old female presents with Severe abdominal pain, Persistent vomiting, Tachycardia, Hypertension, Dark-colored urine, Dehydration, Abdominal pain, Nausea and vomiting. Relevant diagnostic information includes: Urine dip sample showed ++++leukocytes and +++nitrates Initial diagnostic evaluations, including unenhanced CT imaging (Figure 1 and Figure 2 ) and routine laboratory tests (Table 1 ), yielded no acute abnormalities; Initial diagnostic evaluations, including unenhanced CT imaging (Figure 1 and Figure 2 ) and routine laboratory tests (Table 1 ), yielded no acute abnormalities;",
+    "ollama_review_notes": ""
+  }
+]

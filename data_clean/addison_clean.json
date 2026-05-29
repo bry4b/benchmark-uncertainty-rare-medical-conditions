@@ -1,0 +1,122 @@
+[
+  {
+    "case_id": "PMC10387197_case_1",
+    "source": {
+      "pmcid": "PMC10387197",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/29350667/",
+      "year": "2023",
+      "review_status": "needs_human_review"
+    },
+    "ground_truth_diagnosis": "Autoimmune Addison disease",
+    "patient_profile": {
+      "age": "8 years",
+      "sex": "female"
+    },
+    "symptoms_present": [
+      "Nausea",
+      "Persistent vomiting",
+      "Abdominal pain",
+      "acute adrenal insufficiency symptoms"
+    ],
+    "symptoms_absent": [
+      "Fever",
+      "diabetes mellitus",
+      "thyroid disease",
+      "atrophic gastritis",
+      "no weight gain",
+      "normal height for age"
+    ],
+    "labs_or_tests": [
+      {
+        "test": "Blood analysis",
+        "result": "Severe hypoglycaemia (1.39 mmoL/L), hyponatremia (126 mmoL/L) and hyperkalaemia (6.1 mmoL/L)",
+        "evidence_sentence": "Her blood analysis showed a severe hypoglycaemia (1.39 mmoL/L), hyponatremia (126 mmoL/L) and hyperkalaemia (6.1 mmoL/L)"
+      },
+      {
+        "test": "Renin level",
+        "result": "Significantly high renin level (631.2 mU/L)",
+        "evidence_sentence": "Following the identification of significantly high renin level (631.2 mU/L), we introduced a mineralocorticoid replacement therapy with fludrocortisone"
+      },
+      {
+        "test": "ACTH level",
+        "result": "High ACTH (> 278 pmoL/L)",
+        "evidence_sentence": "Further blood analysis showed low cortisol (< 0.50 nmoL/L), normal renin (44.9 mU/L, normal values 5.5–80 mU/L), low aldosterone levels (26.9 pmoL/L, normal values 138–831 pmol/L) with high ACTH (> 278 pmoL/L)"
+      },
+      {
+        "test": "thyroid peroxidase",
+        "result": "65 kU/L",
+        "evidence_sentence": "we repeated all the autoimmunity panels and we found a positivity for thyroid peroxidase (65 kU/L)"
+      },
+      {
+        "test": "thyroglobulin antibodies",
+        "result": "72 UI/mL",
+        "evidence_sentence": "we repeated all the autoimmunity panels and we found a positivity for thyroglobulin antibodies (72 UI/mL)"
+      },
+      {
+        "test": "hydrocortisone dose",
+        "result": "decreased",
+        "evidence_sentence": "Her adrenal function always remained well-compensated (cortisol 445 nmol/L, ACTH 9.89 pmol/L, renin 59.10 mU/L, aldosterone 41.61 pmol/L)"
+      },
+      {
+        "test": "fludrocortisone dose",
+        "result": "stable",
+        "evidence_sentence": "Her adrenal function always remained well-compensated (cortisol 445 nmol/L, ACTH 9.89 pmol/L, renin 59.10 mU/L, aldosterone 41.61 pmol/L)"
+      }
+    ],
+    "candidate_mimics": [
+      {
+        "diagnosis": "Autoimmune thyroid disease",
+        "evidence_sentence": "Her past medical history was silent except for a recently appeared alopecia and for a familial predisposition for autoimmune thyroid disease"
+      },
+      {
+        "diagnosis": "Diabetes mellitus",
+        "evidence_sentence": "They are both taking levothyroxine treatment. Recently the patient’s twin sister developed an autoimmune thyroiditis with subclinical hypothyroidism that has never needed any replacing therapy."
+      },
+      {
+        "diagnosis": "Atrophic gastritis",
+        "evidence_sentence": "Nevertheless, a subclinical hypothyroidism was pointed out, with TSH levels (6.64 mU/L) slightly above threshold"
+      },
+      {
+        "diagnosis": "autoimmune thyroiditis",
+        "evidence_sentence": "leading us to the diagnosis of autoimmune thyroiditis."
+      }
+    ],
+    "final_diagnosis_evidence": "High levels of 21-hydroxylase antibodies, significantly high renin level (631.2 mU/L)",
+    "red_flag_features": [
+      {
+        "test": "Blood analysis",
+        "result": "Severe hypoglycaemia (1.39 mmoL/L), hyponatremia (126 mmoL/L) and hyperkalaemia (6.1 mmoL/L)"
+      },
+      {
+        "test": "ACTH level",
+        "result": "High ACTH (> 278 pmoL/L)"
+      }
+    ],
+    "discriminating_features": [
+      {
+        "test": "Renin level",
+        "result": "Significantly high renin level (631.2 mU/L)"
+      },
+      {
+        "test": "thyroid peroxidase",
+        "result": "65 kU/L"
+      }
+    ],
+    "nonspecific_features": [
+      {
+        "test": "Blood analysis",
+        "result": "Persistent vomiting"
+      },
+      {
+        "test": "ACTH level",
+        "result": "Low cortisol (< 0.50 nmoL/L)"
+      },
+      {
+        "test": "hydrocortisone dose",
+        "result": "decreased"
+      }
+    ],
+    "vignette": "A 8 years-year-old patient presents with Nausea, Persistent vomiting, Abdominal pain, acute adrenal insufficiency symptoms. Relevant diagnostic information includes: Blood analysis showed Severe hypoglycaemia (1.39 mmoL/L), hyponatremia (126 mmoL/L) and hyperkalaemia (6.1 mmoL/L) Renin level showed Significantly high renin level (631.2 mU/L) ACTH level showed High ACTH (> 278 pmoL/L)",
+    "ollama_review_notes": ""
+  }
+]

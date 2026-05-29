@@ -1,0 +1,72 @@
+[
+  {
+    "case_id": "PMC12396124_case_1",
+    "source": {
+      "pmcid": "PMC12396124",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/38697115/",
+      "year": "2025",
+      "review_status": "needs_human_review"
+    },
+    "ground_truth_diagnosis": "Myasthenia gravis",
+    "patient_profile": {
+      "age": "45",
+      "sex": "male"
+    },
+    "presenting_complaint": "eyelid drooping, stomach bleeding, blurred vision",
+    "symptoms_present": [
+      "eyelid drooping",
+      "stomach bleeding",
+      "blurred vision",
+      "slurred speech",
+      "limb fatigue",
+      "muscle soreness",
+      "difficulty standing",
+      "swallowing issues",
+      "fever",
+      "anaemia",
+      "coarse breath sounds",
+      "dry crackles",
+      "wet crackles"
+    ],
+    "symptoms_absent": [
+      "fever",
+      "respiratory distress",
+      "tachycardia",
+      "no fever",
+      "normal temperature",
+      "no pathogenic organisms",
+      "no lung infection",
+      "normal liver function tests prior to antibiotic adjustment",
+      "haemoglobin levels",
+      "stool characteristics",
+      "respiratory function",
+      "rebound tenderness"
+    ],
+    "candidate_mimics": [],
+    "final_diagnosis_evidence": "Diagnosed with MG in February 2023, he began immunosuppressive therapy with methylprednisolone 12 mg qd, tacrolimus 2 mg qd, and pyridostigmine 60 mg tid, but symptom control remained poor.",
+    "red_flag_features": [
+      "stomach bleeding",
+      "prolonged prothrombin time"
+    ],
+    "discriminating_features": [
+      "multiple small patchy low-density filling defects in the main pulmonary arteries of both lungs, the apical posterior segment of the right upper lobe, the middle lobe of the right lung, and the pulmonary artery branches of both lower lobes",
+      "Stenotrophomonas maltophilia, Enterococcus faecalis, Pneumocystis jirovecii, and T. marneffei"
+    ],
+    "nonspecific_features": [
+      "eyelid drooping",
+      "blurred vision",
+      "slurred speech",
+      "limb fatigue",
+      "muscle soreness",
+      "difficulty standing",
+      "swallowing issues",
+      "fever",
+      "anaemia",
+      "coarse breath sounds",
+      "dry crackles",
+      "wet crackles"
+    ],
+    "vignette": "A 45-year-old male presents with eyelid drooping, stomach bleeding, blurred vision, slurred speech, limb fatigue, muscle soreness, difficulty standing, swallowing issues.",
+    "ollama_review_notes": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "case_id": "PMC11823016_case_1",
+    "source": {
+      "pmcid": "PMC11823016",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39948482/",
+      "year": "2025",
+      "review_status": "needs_human_review"
+    },
+    "ground_truth_diagnosis": "acute intermittent porphyria",
+    "patient_profile": {
+      "age": "26",
+      "sex": "male"
+    },
+    "presenting_complaint": "abdominal pain, Generalized tonic–clonic seizures, seizures, Generalized body convulsions",
+    "symptoms_present": [
+      "Generalized body convulsions",
+      "Bilateral upper limb weakness",
+      "Generalized tonic–clonic seizures",
+      "Recurrent vomiting",
+      "Profuse sweating",
+      "Hypertension",
+      "Sinus tachycardia",
+      "Hyponatremia",
+      "limb pain",
+      "constipation",
+      "abdominal pain",
+      "bowel obstruction",
+      "seizures",
+      "proximal upper limb weakness",
+      "distal upper limb weakness",
+      "lower back weakness",
+      "difficulty swallowing",
+      "coughing episodes",
+      "hallucinations",
+      "self-talk",
+      "delusions",
+      "limb weakness",
+      "generalized muscle pain",
+      "mild nausea",
+      "tea-colored urine"
+    ],
+    "symptoms_absent": [
+      "Fever",
+      "cerebrospinal fluid biochemical analysis",
+      "routine tests",
+      "no abnormal lesions in brain MRI",
+      "no elevated lactate levels after exercise",
+      "straightening fingers"
+    ],
+    "candidate_mimics": [
+      {
+        "diagnosis": "Urinary tract infection",
+        "evidence_sentence": "A urinary tract infection was considered, and after receiving corresponding treatment, the abdominal pain and vomiting resolved within two weeks."
+      },
+      {
+        "diagnosis": "Guillain-Barré syndrome",
+        "evidence_sentence": "His proximal upper limb weakness was assessed as motor axonal neuropathy, raising an initial high suspicion of Guillain-Barré syndrome (GBS)."
+      },
+      {
+        "diagnosis": "mitochondrial encephalomyopathy with lactic acidosis and stroke-like episodes (MELAS)",
+        "evidence_sentence": "mitochondrial encephalomyopathy with lactic acidosis and stroke-like episodes (MELAS) and AIP were considered as possible diagnoses."
+      }
+    ],
+    "final_diagnosis_evidence": "positive PBG in a urine sample, which was tested using the qualitative Watson-Schwartz method at PUMC, along with genetic testing that identified a c.445C > T (R149X) mutation in the HMBS gene.",
+    "red_flag_features": [
+      "Generalized tonic–clonic seizures",
+      "Hyponatremia"
+    ],
+    "discriminating_features": [
+      "Bilateral upper limb weakness",
+      "Profuse sweating",
+      "Hypertension",
+      "Sinus tachycardia",
+      "Tea-colored urine"
+    ],
+    "nonspecific_features": [
+      "Generalized body convulsions",
+      "Recurrent vomiting",
+      "Abdominal pain",
+      "Constipation",
+      "Coughing episodes",
+      "Hallucinations",
+      "Self-talk",
+      "Delusions",
+      "Limb weakness",
+      "Generalized muscle pain"
+    ],
+    "vignette": "A 26-year-old male presents with Generalized body convulsions, Bilateral upper limb weakness, Generalized tonic–clonic seizures, Recurrent vomiting, Profuse sweating, Hypertension, Sinus tachycardia, Hyponatremia.",
+    "ollama_review_notes": "Acute intermittent porphyria is a diagnosis of exclusion. The presence of seizures, neurological symptoms, and specific laboratory findings (e.g., tea-colored urine) support this diagnosis."
+  }
+]

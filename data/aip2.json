@@ -1,0 +1,233 @@
+{
+  "query": {
+    "disease": "38094544",
+    "desired_report_count": 10,
+    "retrieved_report_count": 1,
+    "open_access_only": false,
+    "ollama_model": "pubmed-extractor"
+  },
+  "records": [
+    {
+      "pmcid": "PMC10718639",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/38094544/",
+      "year": "2023",
+      "abstract": "Acute intermittent porphyria (AIP) is an autosomal, dominant, rare metabolic disturbance that results from a defect in the activity of the heme biosynthesis. It has a heterogeneous presentation, making a prompt diagnosis challenging. We report a case of acute intermittent porphyria in a young female who underwent in vitro fertilization (IVF) and presented with recurrent abdominal pain and posterior reversible encephalopathy syndrome (PRES), progressing to acute progressive quadriparesis post-delivery.",
+      "extraction": {
+        "patients": [
+          {
+            "patient_id": "case_1",
+            "age": "33",
+            "sex": "female",
+            "confirmed_diagnosis": "Guillain-Barré syndrome (GBS) and porphyria",
+            "final_diagnosis_evidence": "high porphyrins in erythrocytes (112 μg/dl; reference range < 60 μg/dl), urinary porphobilinogen (PBG) level of 805 μmol/24h",
+            "symptoms_presented": [
+              {
+                "raw_symptom": "lower abdominal pain",
+                "status": "present",
+                "temporality": "worsened",
+                "evidence_sentence": "Within the next week, her abdominal pain worsened, so she returned to the hospital."
+              },
+              {
+                "raw_symptom": "visual disturbance",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "She followed a few days later by visual disturbance"
+              },
+              {
+                "raw_symptom": "generalized tonic-clonic seizure",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "She was treated as a case of meningitis and was started on empirical anti-meningeal coverage and phenytoin for her seizures."
+              },
+              {
+                "raw_symptom": "lower limb pain",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "She also complained of lower abdominal pain with lower limb pain"
+              },
+              {
+                "raw_symptom": "visual hallucinations",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "She also complained of visual and auditory hallucinations with severe insomnia."
+              },
+              {
+                "raw_symptom": "auditory hallucinations",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "She also complained of visual and auditory hallucinations with severe insomnia."
+              },
+              {
+                "raw_symptom": "generalized pain",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "During that time, the patient started complaining of generalized pain"
+              },
+              {
+                "raw_symptom": "fatigue",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "During that time, the patient started complaining of generalized pain, fatigue, and weakness."
+              },
+              {
+                "raw_symptom": "weakness",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "During that time, the patient started complaining of generalized pain, fatigue, and weakness."
+              },
+              {
+                "raw_symptom": "generalized pain, fatigue, and weakness",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "ent started complaining of generalized pain, fatigue, and weakness."
+              },
+              {
+                "raw_symptom": "acute onset progressive quadriparesis",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "The next day, the patient developed acute onset progressive quadriparesis..."
+              },
+              {
+                "raw_symptom": "facial diplegia and weak neck flexors",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "she was not able to move her head on her own, and she had poor respiratory effort..."
+              },
+              {
+                "raw_symptom": "",
+                "status": "absent",
+                "temporality": "",
+                "evidence_sentence": ""
+              },
+              {
+                "raw_symptom": "Minimal improvement from a neurology point of view",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "The patient is currently showing minimal improvement from a neurology point of view."
+              },
+              {
+                "raw_symptom": "Motor weakness in the left median and ulnar nerves",
+                "status": "present",
+                "temporality": "acute",
+                "evidence_sentence": "r Left Median APB Wrist NR NR - Elbow NR NR NR Motor Right Median APB Wrist NR NR - Elbow NR NR NR"
+              },
+              {
+                "raw_symptom": "Motor weakness in the left fibular nerve",
+                "status": "present",
+                "temporality": "acute",
+                "evidence_sentence": "Motor Left Fibular EDB Ankle NR NR - Bel. Elbow NR NR NR"
+              }
+            ],
+            "negative_findings": [
+              {
+                "finding": "fever",
+                "status": "absent",
+                "evidence_sentence": "She was treated as a case of urinary tract infection. At the 24th week of gestation, she went into premature labor, delivered her babies, and went home in stable condition."
+              },
+              {
+                "finding": "infection",
+                "status": "absent",
+                "evidence_sentence": "Lumbar puncture (LP) was done and was negative for infection"
+              },
+              {
+                "finding": "no fever",
+                "status": "absent",
+                "evidence_sentence": ""
+              },
+              {
+                "finding": "normal respiratory rate, oxygen saturation, and venous blood gas",
+                "status": "absent",
+                "evidence_sentence": "The patient was placed on forced vital capacity and negative inspiratory pressure."
+              },
+              {
+                "finding": "Fever",
+                "status": "absent",
+                "evidence_sentence": ""
+              },
+              {
+                "finding": "No fever",
+                "status": "present",
+                "evidence_sentence": "Porphyria workup came back three weeks later and revealed high porphyrins in erythrocytes (112 μg/dl; reference range < 60 μg/dl) with a urinary porphobilinogen (PBG) level of 805 μmol/24h (reference value up to 8.40 μmol/24h)."
+              },
+              {
+                "finding": "Fever",
+                "status": "absent",
+                "evidence_sentence": "- No fever"
+              },
+              {
+                "finding": "Tenderness",
+                "status": "absent",
+                "evidence_sentence": "NR NR - Elbow NR NR NR"
+              }
+            ],
+            "diagnostic_tests": [
+              {
+                "test": "brain MRI",
+                "result": "",
+                "evidence_sentence": "Her brain MRI was consistent with PRES (Figure 1 )."
+              },
+              {
+                "test": "lumbar puncture (LP)",
+                "result": "negative for infection",
+                "evidence_sentence": "Lumbar puncture (LP) was done and was negative for infection"
+              },
+              {
+                "test": "nerve conduction study (NCS) and electromyography (EMG)",
+                "result": "completely normal",
+                "evidence_sentence": "A nerve conduction study (NCS) and electromyography (EMG) were done three days after her flaccid paralysis..."
+              },
+              {
+                "test": "cervical and lumbar spine MRI",
+                "result": "unremarkable",
+                "evidence_sentence": "Cervical and lumbar spine MRI at the time was unremarkable."
+              },
+              {
+                "test": "Nerve conduction study",
+                "result": "",
+                "evidence_sentence": "Table 1 Nerve conduction study for sensory responses NR: no response Type of study Nerve Recording site Latency (ms) Amplitude (mV) Conduction velocity (ms) Sensory Left Median Wrist-Digit II NR NR NR"
+              },
+              {
+                "test": "Nerve conduction study",
+                "result": "",
+                "evidence_sentence": "Table 2 Nerve conduction study for motor responses ABP: abductor pollicis brevis, ADM: abductor digit minimi, EDB: extensor digitorum brevis, AHB: abductor hallicus NR: no response Type of study Nerve Stimulation site Recording site Latency (ms) Amplitude (mV) Conduction velocity (ms) F wave (ms) Motor Left Median APB Wrist NR NR - Elbow NR NR NR"
+              },
+              {
+                "test": "Electromyography (EMG)",
+                "result": "",
+                "evidence_sentence": ""
+              },
+              {
+                "test": "Nerve conduction studies",
+                "result": "",
+                "evidence_sentence": ""
+              }
+            ],
+            "initial_misdiagnoses_or_mimics": [
+              {
+                "diagnosis": "urinary tract infection",
+                "evidence_sentence": "She was admitted and treated as a case of urinary tract infection."
+              },
+              {
+                "diagnosis": "meningitis",
+                "evidence_sentence": "She was treated as a case of meningitis"
+              },
+              {
+                "diagnosis": "porphyria",
+                "evidence_sentence": "Given the patient’s history of lower abdominal pain, acute quadriparesis with areflexia, hyponatremia, and psychiatric manifestations..."
+              },
+              {
+                "diagnosis": "",
+                "evidence_sentence": ""
+              },
+              {
+                "diagnosis": "Guillain-Barré syndrome",
+                "evidence_sentence": ""
+              }
+            ]
+          }
+        ]
+      },
+      "review_status": "needs_human_review"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+[
+  {
+    "case_id": "PMC10718639_case_1",
+    "source": {
+      "pmcid": "PMC10718639",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/38094544/",
+      "year": "2023",
+      "review_status": "needs_human_review"
+    },
+    "ground_truth_diagnosis": "Guillain-Barré syndrome (GBS) and porphyria",
+    "patient_profile": {
+      "age": "33",
+      "sex": "female"
+    },
+    "symptoms_present": [
+      "lower abdominal pain",
+      "visual disturbance",
+      "generalized tonic-clonic seizure",
+      "lower limb pain",
+      "visual hallucinations",
+      "auditory hallucinations",
+      "generalized pain",
+      "fatigue",
+      "weakness",
+      "generalized pain, fatigue, and weakness",
+      "acute onset progressive quadriparesis",
+      "facial diplegia and weak neck flexors",
+      "Minimal improvement from a neurology point of view",
+      "Motor weakness in the left median and ulnar nerves",
+      "Motor weakness in the left fibular nerve"
+    ],
+    "symptoms_absent": [
+      "fever",
+      "infection",
+      "no fever",
+      "normal respiratory rate, oxygen saturation, and venous blood gas",
+      "Tenderness"
+    ],
+    "labs_or_tests": [
+      {
+        "test": "brain MRI",
+        "result": "",
+        "evidence_sentence": "Her brain MRI was consistent with PRES (Figure 1 )."
+      },
+      {
+        "test": "lumbar puncture (LP)",
+        "result": "negative for infection",
+        "evidence_sentence": "Lumbar puncture (LP) was done and was negative for infection"
+      },
+      {
+        "test": "nerve conduction study (NCS) and electromyography (EMG)",
+        "result": "completely normal",
+        "evidence_sentence": "A nerve conduction study (NCS) and electromyography (EMG) were done three days after her flaccid paralysis..."
+      },
+      {
+        "test": "cervical and lumbar spine MRI",
+        "result": "unremarkable",
+        "evidence_sentence": "Cervical and lumbar spine MRI at the time was unremarkable."
+      },
+      {
+        "test": "Nerve conduction study",
+        "result": "",
+        "evidence_sentence": "Table 1 Nerve conduction study for sensory responses NR: no response Type of study Nerve Recording site Latency (ms) Amplitude (mV) Conduction velocity (ms) Sensory Left Median Wrist-Digit II NR NR NR | Table 2 Nerve conduction study for motor responses ABP: abductor pollicis brevis, ADM: abductor digit minimi, EDB: extensor digitorum brevis, AHB: abductor hallicus NR: no response Type of study Nerve Stimulation site Recording site Latency (ms) Amplitude (mV) Conduction velocity (ms) F wave (ms) Motor Left Median APB Wrist NR NR - Elbow NR NR NR"
+      }
+    ],
+    "candidate_mimics": [
+      {
+        "diagnosis": "urinary tract infection",
+        "evidence_sentence": "She was admitted and treated as a case of urinary tract infection."
+      },
+      {
+        "diagnosis": "meningitis",
+        "evidence_sentence": "She was treated as a case of meningitis"
+      },
+      {
+        "diagnosis": "porphyria",
+        "evidence_sentence": "Given the patient’s history of lower abdominal pain, acute quadriparesis with areflexia, hyponatremia, and psychiatric manifestations..."
+      },
+      {
+        "diagnosis": "Guillain-Barré syndrome",
+        "evidence_sentence": ""
+      }
+    ],
+    "final_diagnosis_evidence": "high porphyrins in erythrocytes (112 μg/dl; reference range < 60 μg/dl), urinary porphobilinogen (PBG) level of 805 μmol/24h",
+    "red_flag_features": [
+      "acute onset progressive quadriparesis",
+      "Minimal improvement from a neurology point of view"
+    ],
+    "discriminating_features": [
+      "Motor weakness in the left median and ulnar nerves",
+      "Motor weakness in the left fibular nerve"
+    ],
+    "nonspecific_features": [
+      "lower abdominal pain",
+      "visual disturbance",
+      "generalized tonic-clonic seizure",
+      "lower limb pain",
+      "visual hallucinations",
+      "auditory hallucinations",
+      "generalized pain",
+      "fatigue",
+      "weakness",
+      "Generalized pain, fatigue, and weakness"
+    ],
+    "vignette": "A 33-year-old female presents with lower abdominal pain, visual disturbance, generalized tonic-clonic seizure, lower limb pain, visual hallucinations, auditory hallucinations, generalized pain, fatigue. Relevant diagnostic information includes: Her brain MRI was consistent with PRES (Figure 1 ). lumbar puncture (LP) showed negative for infection nerve conduction study (NCS) and electromyography (EMG) showed completely normal",
+    "ollama_review_notes": ""
+  }
+]

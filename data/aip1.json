@@ -1,0 +1,139 @@
+{
+  "query": {
+    "disease": "39463915",
+    "desired_report_count": 10,
+    "retrieved_report_count": 1,
+    "open_access_only": false,
+    "ollama_model": "pubmed-extractor"
+  },
+  "records": [
+    {
+      "pmcid": "PMC11512492",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39463915/",
+      "year": "2024",
+      "abstract": "This case report presents the case of a 20-year-old female patient who sought emergency medical attention for severe abdominal pain, nausea and vomiting, tachycardia, hypertension, and discolored urine. Initial diagnostic evaluations yielded no significant abnormalities; however, subsequent analysis revealed elevated urinary porphobilinogen, corroborating a diagnosis of acute intermittent porphyria (AIP). The patient’s medical history included recurrent urinary tract infections and a prior episode of syndrome of inappropriate antidiuretic hormone secretion (SIADH), in conjunction with psychiatric comorbidities of anxiety and depression. Management encompassed a multifaceted approach involving supportive therapies, such as hydration and analgesia, alongside the imperative to abstain from using contraindicated pharmacological agents. Following referral to the National Acute Porphyria Service (NAPS), the patient received intravenous Haem arginate, resulting in clinical improvement and subsequent discharge. Nonetheless, she later necessitated further hospitalization due to the recurrence of similar symptoms. This case highlights the exigency of recognizing AIP in young women presenting with nonspecific symptoms, necessitating a high index of clinical suspicion. Furthermore, it accentuates the critical importance of early specialist intervention to avert severe sequelae associated with acute episodes. The integration of targeted educational initiatives within Acute Medicine departments is paramount for fostering awareness and facilitating prompt diagnosis and management of this rare yet significant disorder.",
+      "extraction": {
+        "patients": [
+          {
+            "patient_id": "case_1",
+            "age": "20 years",
+            "sex": "female",
+            "confirmed_diagnosis": "Acute Intermittent Porphyrin (AIP)",
+            "final_diagnosis_evidence": "Subsequent analysis of urine revealed elevated levels of porphobilinogen (PBG) and urine porphyrin/creatinine ratio.",
+            "symptoms_presented": [
+              {
+                "raw_symptom": "Severe abdominal pain",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "A 20-year-old female presented to the Emergency Department with a clinical tableau characterized by severe abdominal pain..."
+              },
+              {
+                "raw_symptom": "Persistent vomiting",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "A 20-year-old female presented to the Emergency Department with a clinical tableau characterized by severe abdominal pain, persistent vomiting..."
+              },
+              {
+                "raw_symptom": "Tachycardia",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "A 20-year-old female presented to the Emergency Department with a clinical tableau characterized by severe abdominal pain, persistent vomiting, tachycardia..."
+              },
+              {
+                "raw_symptom": "Hypertension",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "A 20-year-old female presented to the Emergency Department with a clinical tableau characterized by severe abdominal pain, persistent vomiting, tachycardia, hypertension..."
+              },
+              {
+                "raw_symptom": "Dark-colored urine",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "A 20-year-old female presented to the Emergency Department with a clinical tableau characterized by severe abdominal pain, persistent vomiting, tachycardia, hypertension, and notable dark-colored urine."
+              },
+              {
+                "raw_symptom": "Dehydration",
+                "status": "present",
+                "temporality": "",
+                "evidence_sentence": "The patient appeared clinically dehydrated as well."
+              },
+              {
+                "raw_symptom": "Abdominal pain",
+                "status": "present",
+                "temporality": "acute",
+                "evidence_sentence": "This clinical vignette accentuates the necessity for heightened awareness and education among healthcare professionals regarding the atypical presentations of this rare and potentially life-threatening disorder, particularly in young females."
+              },
+              {
+                "raw_symptom": "Nausea and vomiting",
+                "status": "present",
+                "temporality": "acute",
+                "evidence_sentence": "This clinical vignette accentuates the necessity for heightened awareness and education among healthcare professionals regarding the atypical presentations of this rare and potentially life-threatening disorder, particularly in young females."
+              },
+              {
+                "raw_symptom": "Headache",
+                "status": "present",
+                "temporality": "acute",
+                "evidence_sentence": "This clinical vignette accentuates the necessity for heightened awareness and education among healthcare professionals regarding the atypical presentations of this rare and potentially life-threatening disorder, particularly in young females."
+              }
+            ],
+            "negative_findings": [
+              {
+                "finding": "Fever",
+                "status": "absent",
+                "evidence_sentence": "Initial diagnostic evaluations, including unenhanced CT imaging (Figure 1 and Figure 2 ) and routine laboratory tests (Table 1 ), yielded no acute abnormalities;"
+              },
+              {
+                "finding": "No fever",
+                "status": "absent",
+                "evidence_sentence": "This clinical vignette accentuates the necessity for heightened awareness and education among healthcare professionals regarding the atypical presentations of this rare and potentially life-threatening disorder, particularly in young females."
+              }
+            ],
+            "diagnostic_tests": [
+              {
+                "test": "Urine dip sample",
+                "result": "++++leukocytes and +++nitrates",
+                "evidence_sentence": "A urine dip sample showed +++leukocytes and +++nitrates."
+              },
+              {
+                "test": "Unenhanced CT imaging",
+                "result": "",
+                "evidence_sentence": "Initial diagnostic evaluations, including unenhanced CT imaging (Figure 1 and Figure 2 ) and routine laboratory tests (Table 1 ), yielded no acute abnormalities;"
+              },
+              {
+                "test": "Routine laboratory tests",
+                "result": "",
+                "evidence_sentence": "Initial diagnostic evaluations, including unenhanced CT imaging (Figure 1 and Figure 2 ) and routine laboratory tests (Table 1 ), yielded no acute abnormalities;"
+              },
+              {
+                "test": "Urine porphyrin/creatinine ratio",
+                "result": "213 nmol/mmol Cr",
+                "evidence_sentence": "Uraine porphyrin/creatinine ratio 213 nmol/mmol Cr <35nmol/mmol Cr"
+              },
+              {
+                "test": "Urine PBG/creatinine ratio",
+                "result": "37.4 umol/mmol Cr",
+                "evidence_sentence": "Uraine PBG/creatinine ratio 37.4 umol/mmol Cr <1.5 umol/mmol Cr"
+              },
+              {
+                "test": "Urine ALA/creatinine",
+                "result": "131 mmol/mol Cr",
+                "evidence_sentence": "Uraine ALA/creatinine 131 mmol/mol Cr <3.3 mmol/mol Cr"
+              }
+            ],
+            "initial_misdiagnoses_or_mimics": [
+              {
+                "diagnosis": "Urinary tract infection",
+                "evidence_sentence": "She also had a history of recurrent urinary tract infections (UTI) and a prior Intensive Care Unit admission for the syndrome of inappropriate antidiuretic hormone secretion (SIADH)."
+              },
+              {
+                "diagnosis": "None mentioned",
+                "evidence_sentence": ""
+              }
+            ]
+          }
+        ]
+      },
+      "review_status": "needs_human_review"
+    }
+  ]
+}

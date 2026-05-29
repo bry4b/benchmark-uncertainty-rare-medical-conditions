@@ -1,0 +1,85 @@
+[
+  {
+    "case_id": "PMC12344933_case_1",
+    "source": {
+      "pmcid": "PMC12344933",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40307161/",
+      "year": "2025",
+      "review_status": "needs_human_review"
+    },
+    "ground_truth_diagnosis": "Hereditary Angioedema with myoferlin gene mutation (HAE-MYOF)",
+    "patient_profile": {
+      "age": "36 years",
+      "sex": "male"
+    },
+    "presenting_complaint": "Abdominal pain",
+    "symptoms_present": [
+      "Swelling (genital area, tongue, lips, and upper extremities)",
+      "Hyperesthesia",
+      "Marginal erythema",
+      "Angioedema of the lips",
+      "Abdominal pain",
+      "Swelling of the face, extremities, and mucosa"
+    ],
+    "symptoms_absent": [
+      "Normal C1-inhibitor (C1-INH) levels",
+      "Normal levels of C1-inhibitor (C1-INH) and C4",
+      "No clinical manifestations in brother"
+    ],
+    "candidate_mimics": [
+      {
+        "diagnosis": "HAE due to C1-INH deficiency",
+        "evidence_sentence": ""
+      }
+    ],
+    "final_diagnosis_evidence": "Whole-genome sequencing revealed a newly described heterozygous mutation in exon 33 of the MYOF gene, specifically c.2225C > T(p.Ser742Leu).",
+    "red_flag_features": [
+      "Swelling (genital area, tongue, lips, and upper extremities)",
+      "Angioedema of the lips"
+    ],
+    "discriminating_features": [
+      "Hyperesthesia",
+      "Marginal erythema",
+      "Abdominal pain",
+      "Swelling of the face, extremities, and mucosa"
+    ],
+    "nonspecific_features": [
+      "Swelling (general)",
+      "Pain (abdominal)"
+    ],
+    "vignette": "A 36 years-year-old male presents with Swelling (genital area, tongue, lips, and upper extremities), Hyperesthesia, Marginal erythema, Angioedema of the lips, Abdominal pain, Swelling of the face, extremities, and mucosa.",
+    "ollama_review_notes": "The presence of angioedema and specific genetic mutation supports the diagnosis. However, some symptoms like abdominal pain could be seen in other conditions."
+  },
+  {
+    "case_id": "PMC12344933_case_2",
+    "source": {
+      "pmcid": "PMC12344933",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40307161/",
+      "year": "2025",
+      "review_status": "needs_human_review"
+    },
+    "ground_truth_diagnosis": "Hereditary Angioedema",
+    "patient_profile": {
+      "age": "young adult",
+      "sex": "female"
+    },
+    "presenting_complaint": "Angioedema of the coccyx, Angioedema involving eyelids, lips, larynx, pharynx, hands, and feet",
+    "symptoms_present": [
+      "Angioedema of the coccyx",
+      "Angioedema involving eyelids, lips, larynx, pharynx, hands, and feet"
+    ],
+    "symptoms_absent": [
+      "Normal levels of C1-inhibitor (C1-INH) and C4"
+    ],
+    "candidate_mimics": [],
+    "final_diagnosis_evidence": "Whole-exome sequencing revealed a heterozygous mutation in the MYOF gene, specifically, in exon 33 at position c.3508 C > T(p.His1170Tyr).",
+    "red_flag_features": [
+      "Angioedema of the coccyx",
+      "Angioedema involving eyelids, lips, larynx, pharynx, hands, and feet"
+    ],
+    "discriminating_features": [],
+    "nonspecific_features": [],
+    "vignette": "A young adult-year-old female presents with Angioedema of the coccyx, Angioedema involving eyelids, lips, larynx, pharynx, hands, and feet.",
+    "ollama_review_notes": ""
+  }
+]

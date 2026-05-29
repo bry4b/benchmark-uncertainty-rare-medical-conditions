@@ -1,0 +1,73 @@
+[
+  {
+    "case_id": "PMC12831825_case_1",
+    "source": {
+      "pmcid": "PMC12831825",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37583127/",
+      "year": "2025",
+      "review_status": "needs_human_review"
+    },
+    "ground_truth_diagnosis": "Wilson's disease",
+    "patient_profile": {
+      "age": "12 years",
+      "sex": ""
+    },
+    "presenting_complaint": "progressive limb weakness",
+    "symptoms_present": [
+      "progressive limb weakness",
+      "alterations in speech",
+      "difficulty grasping objects",
+      "decline in scholastic performances",
+      "progressive worsening of handwriting",
+      "increased stubbornness",
+      "incoherence during this period",
+      "neuropsychiatric features"
+    ],
+    "symptoms_absent": [
+      "no abnormal movements or episodes of fainting",
+      "normal gait",
+      "no fever",
+      "normal liver function tests",
+      "no temperature"
+    ],
+    "candidate_mimics": [
+      {
+        "diagnosis": "thalassemia major",
+        "evidence_sentence": ""
+      }
+    ],
+    "final_diagnosis_evidence": "The diagnosis of Wilson's disease was established based on the criteria from the 8th International Wilson's Disease Meeting, Leipzig, 2001.",
+    "red_flag_features": [
+      {
+        "test": "MRI",
+        "result": "FLAIR high-signal intensities in bilateral lentiform nucleus and thalamus"
+      },
+      {
+        "test": "Urinary copper",
+        "result": "elevated (57 mcg/24 hours)"
+      }
+    ],
+    "discriminating_features": [
+      {
+        "test": "bone marrow aspiration",
+        "result": "lymphocytosis with dyserythropoiesis and increased megakaryopoiesis"
+      },
+      {
+        "test": "peripheral blood smear",
+        "result": "dimorphic anemia (normocytic and microcytic)"
+      }
+    ],
+    "nonspecific_features": [
+      {
+        "test": "Direct Coomb's test",
+        "result": "negative"
+      },
+      {
+        "test": "Splenomegaly",
+        "result": "14.75 cm"
+      }
+    ],
+    "vignette": "A 12 years-year-old patient presents with progressive limb weakness, alterations in speech, difficulty grasping objects, decline in scholastic performances, progressive worsening of handwriting, increased stubbornness, incoherence during this period, neuropsychiatric features.",
+    "ollama_review_notes": ""
+  }
+]
